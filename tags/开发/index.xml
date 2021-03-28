@@ -2,17 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>开发 on Senku&#39;s Blog</title>
-    <link>https://simonhux.github.io/tags/%E5%BC%80%E5%8F%91/</link>
+    <link>https://example.com/tags/%E5%BC%80%E5%8F%91/</link>
     <description>Recent content in 开发 on Senku&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.github.io/tags/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test</title>
+      <link>https://example.com/p/test/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/p/test/</guid>
+      <description>开发环境 下载 </description>
+    </item>
+    
     <item>
       <title>从零开始搭建 Go 语言开发环境</title>
-      <link>https://simonhux.github.io/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
+      <link>https://example.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.github.io/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
+      <guid>https://example.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
       <description>开发环境 下载 下载地址 Go官网下载地址：https://golang.org/dl/
 Go官方镜像站（推荐）：https://golang.google.cn/dl/
 版本的选择 Windows 平台和 Mac 平台推荐下载可执行文件版，Linux 平台下载压缩文件版。
@@ -31,10 +40,10 @@ GOROOT 和 GOPATH GOROOT和GOPATH都是环境变量，其中GOROOT是我们安�
     
     <item>
       <title>Windows&#34;新宠儿&#34;：Windows Terminal</title>
-      <link>https://simonhux.github.io/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</link>
+      <link>https://example.com/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.github.io/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</guid>
+      <guid>https://example.com/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</guid>
       <description>前言 Windows Terminal 是微软在2019年Build大会上宣布推出的全新开源终端应用，它带来了许多强大的特性，比如多标签页、Unicode 和 UTF-8 字符支持、GPU 加速文本渲染引擎与自定义主题、样式和配置等。
 Windwos Terminal 采用 C++ 开发，基于现代 Windows 应用平台和 UI 框架，同时整合共享的现代化组件，这些共享组件可以在 Windows 任何终端上使用，比如有一个全新的基于 DirectWrite 的文本布局和渲染引擎、一个能够存储 UTF-16 和 UTF-8 的文本缓冲区以及一个 VT 解析器/发射器。
 此外，Windows Terminal 渲染器和输入栈被构建成了可重用的 Windows UI 控件，方便其他开发者将其整合到他们自己的应用中。

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shell on Senku&#39;s Blog</title>
-    <link>https://simonhux.github.io/categories/shell/</link>
+    <link>https://example.com/categories/shell/</link>
     <description>Recent content in Shell on Senku&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.github.io/categories/shell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/shell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows&#34;新宠儿&#34;：Windows Terminal</title>
-      <link>https://simonhux.github.io/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</link>
+      <link>https://example.com/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.github.io/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</guid>
+      <guid>https://example.com/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</guid>
       <description>前言 Windows Terminal 是微软在2019年Build大会上宣布推出的全新开源终端应用，它带来了许多强大的特性，比如多标签页、Unicode 和 UTF-8 字符支持、GPU 加速文本渲染引擎与自定义主题、样式和配置等。
 Windwos Terminal 采用 C++ 开发，基于现代 Windows 应用平台和 UI 框架，同时整合共享的现代化组件，这些共享组件可以在 Windows 任何终端上使用，比如有一个全新的基于 DirectWrite 的文本布局和渲染引擎、一个能够存储 UTF-16 和 UTF-8 的文本缓冲区以及一个 VT 解析器/发射器。
 此外，Windows Terminal 渲染器和输入栈被构建成了可重用的 Windows UI 控件，方便其他开发者将其整合到他们自己的应用中。

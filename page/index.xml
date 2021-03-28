@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Senku&#39;s Blog</title>
+    <link>https://simonhux.github.io/page/</link>
+    <description>Recent content in Pages on Senku&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://simonhux.github.io/about/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhux.github.io/about/</guid>
+      <description>🧑🏻‍💻 About Me let me = undefined
+undefined 就有无限可能
+本科CS在读，三本类院校大四，目前正在实习，前端开发，正在成为一名社畜。
+果粉(Apple 全家桶用户)，喜欢听音乐和看电影，以及瞎折腾(本博客也是折腾出来的)。
+ senku: \say’n-coo\ Origin: Japanese; senku (sengoku)
+ 我的一些联系方式及其他平台账号：
+ GitHub: GideonSenku Twitter: @Gideon_Senku Telegram: @Gideon_Senku E-mail: gideonsenku[at]gmail.com  🚶‍♂️ About Blog 2020年3月26日.博客最初用Hexo搭建，发布在GitHub Pages上，网址为nocoding.xyz。
+后来由于不小心删除了博客的源文件导致无法更新，并且太忙没有去管理。
+2021年1月，重新拾起博客，并由Hugo搭建，迁移旧的博客文章，并开启评论系统。
+🔗 Links  Hades：Always believe that something wonderful is about to happen.  ❤️ Sponsor 如果你觉得本博客中的内容有帮助到你，欢迎支持赞助我继续创作，赞助地址</description>
+    </item>
+    
+    <item>
+      <title>Archives</title>
+      <link>https://simonhux.github.io/archives/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhux.github.io/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://simonhux.github.io/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhux.github.io/search/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

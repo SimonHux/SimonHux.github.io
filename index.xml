@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Senku&#39;s Blog</title>
+        <title>SimonHux Blog</title>
         <link>https://example.com/</link>
-        <description>Recent content on Senku&#39;s Blog</description>
+        <description>Recent content on SimonHux Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>test</title>
-        <link>https://example.com/p/test/</link>
-        <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://example.com/p/test/</guid>
-        <description>&lt;img src="https://example.com/bg.png" alt="Featured image of post test" /&gt;&lt;h3 id=&#34;开发环境&#34;&gt;开发环境&lt;/h3&gt;
-&lt;h4 id=&#34;下载&#34;&gt;下载&lt;/h4&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>从零开始搭建 Go 语言开发环境</title>
         <link>https://example.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
@@ -1700,8 +1690,8 @@ amd64和 arm64 需要单独使用tag，n1是arm64架构&lt;/p&gt;
         
         <guid>https://example.com/p/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1/</guid>
         <description>&lt;img src="https://example.com/p/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1/bg.png" alt="Featured image of post 最“不正经”的盒子 斐讯N1" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;斐讯N1面世时是以家庭NAS系统和矿机的产品出现的，结果由于NAS软件性能弱，挖矿又因为一些原因服务挂掉，导致一度沦为吃灰的垃圾。&lt;/p&gt;
-&lt;p&gt;而之后在大神webpad破解了bootloader之后，N1可以刷机了，这样就摆脱了之前没有服务的NAS系统，可玩性和自由性大大增加。&lt;/p&gt;
+&lt;p&gt;斐讯N1面世时是以家庭NAS系统和矿机的产品出现的，结果由于NAS软件性能弱，挖矿又因为一些原因服务挂掉，导致一度沦为吃灰的垃圾。
+而之后在大神webpad破解了bootloader之后，N1可以刷机了，这样就摆脱了之前没有服务的NAS系统，可玩性和自由性大大增加。&lt;/p&gt;
 &lt;p&gt;monokind大神通过绕过N1的加密增加了对CoreELEC的支持，CoreELEC的轻便化多媒体方案，让N1摇身一变成为一台专门的蓝光视频播放器，不光可以有海报墙和自动字幕匹配，还可以安装youtube（油管）和netflix（奈飞）插件，直接播放这两个平台的视频。&lt;/p&gt;
 &lt;p&gt;再之后荒野无灯大神的小钢炮系统、万能游戏机EmuELEC系统、全功能的Armbian Linux系统、flippy大神编译的openwrt接踵而来。&lt;/p&gt;
 &lt;p&gt;附一张斐讯N1参数

@@ -8,9 +8,9 @@
 <link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='最“不正经”的盒子 斐讯N1'>
 <meta property='og:description' content='刷入Armbian并安装Docker'>
 <meta property='og:url' content='https://example.com/p/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1/'>
-<meta property='og:site_name' content='Senku&#39;s Blog'>
+<meta property='og:site_name' content='SimonHux Blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Phicomm' /><meta property='article:published_time' content='2020-04-05T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-04-05T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.com/p/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1/bg.png' />
-<meta name="twitter:site" content="Gideon_Senku"><meta name="twitter:title" content="最“不正经”的盒子 斐讯N1">
+<meta name="twitter:title" content="最“不正经”的盒子 斐讯N1">
 <meta name="twitter:description" content="刷入Armbian并安装Docker"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://example.com/p/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1/bg.png' />
     <link rel="shortcut icon" href="favicon_32.ico" />
@@ -64,8 +64,8 @@
                 
             </figure>
         
-        <h1 class="site-name"><a href="https://example.com">Senku&#39;s Blog</a></h1>
-        <h2 class="site-description">这只是一种可能，未必是唯一的可能</h2>
+        <h1 class="site-name"><a href="https://example.com">SimonHux Blog</a></h1>
+        <h2 class="site-description">日拱一卒，功不唐捐</h2>
     </header>
 
     <ol class="menu" id="main-menu">
@@ -93,7 +93,7 @@
         
 
         <li >
-            <a href='about'>
+            <a href='/about'>
                 
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -111,7 +111,7 @@
         
 
         <li >
-            <a href='archives'>
+            <a href='/archives'>
                 
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -130,7 +130,7 @@
         
 
         <li >
-            <a href='search'>
+            <a href='/search'>
                 
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -229,12 +229,16 @@
 
         <time class="article-time--published">Apr 05, 2020</time>
     </footer></div>
+
+    
 </header>
+
+    
 
     <section class="article-content">
     <h2 id="前言">前言</h2>
-<p>斐讯N1面世时是以家庭NAS系统和矿机的产品出现的，结果由于NAS软件性能弱，挖矿又因为一些原因服务挂掉，导致一度沦为吃灰的垃圾。</p>
-<p>而之后在大神webpad破解了bootloader之后，N1可以刷机了，这样就摆脱了之前没有服务的NAS系统，可玩性和自由性大大增加。</p>
+<p>斐讯N1面世时是以家庭NAS系统和矿机的产品出现的，结果由于NAS软件性能弱，挖矿又因为一些原因服务挂掉，导致一度沦为吃灰的垃圾。
+而之后在大神webpad破解了bootloader之后，N1可以刷机了，这样就摆脱了之前没有服务的NAS系统，可玩性和自由性大大增加。</p>
 <p>monokind大神通过绕过N1的加密增加了对CoreELEC的支持，CoreELEC的轻便化多媒体方案，让N1摇身一变成为一台专门的蓝光视频播放器，不光可以有海报墙和自动字幕匹配，还可以安装youtube（油管）和netflix（奈飞）插件，直接播放这两个平台的视频。</p>
 <p>再之后荒野无灯大神的小钢炮系统、万能游戏机EmuELEC系统、全功能的Armbian Linux系统、flippy大神编译的openwrt接踵而来。</p>
 <p>附一张斐讯N1参数
@@ -555,6 +559,8 @@ rm -rf /lib/modules/*aml-g12*  <span class="c1">#删除旧版内核模块，可�
 </section>
 
 
+    
+
     <footer class="article-footer">
     
     <section class="article-tags">
@@ -665,29 +671,56 @@ rm -rf /lib/modules/*aml-g12*  <span class="c1">#删除旧版内核模块，可�
     <div id="remark42"></div>
 <script>
     var remark_config = {
-        host: "https:\/\/remark42.senku.app\/",
-        site_id: 'remark42',
-        components: ['embed'],
-        url: "https:\/\/example.com\/p\/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1\/",
-        max_shown_comments:  15 ,
-        theme: document.body.dataset.scheme,
-        page_title: '最“不正经”的盒子 斐讯N1',
-        locale: 'zh',
-        show_email_subscription:  true 
+      host: "https:\/\/remark42.senku.app\/", 
+      site_id: 'remark42',
+      components: ['embed'], 
+                             
+                             
+                             
+                             
+                             
+    
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+      max_shown_comments: 10, 
+      theme: document.body.dataset.scheme, 
+    
+      locale: 'zh', 
+      show_email_subscription: true 
+                                     
+                                     
+                                     
     };
-
-    (function (c) {
-        for (var i = 0; i < c.length; i++) {
-            var d = document, s = d.createElement('script');
-            s.src = remark_config.host + '/web/' + c[i] + '.js';
-            s.defer = true;
-            (d.head || d.body).appendChild(s);
-        }
+  
+    (function(c) {
+      for(var i = 0; i < c.length; i++){
+        var d = document, s = d.createElement('script');
+        s.src = remark_config.host + '/web/' +c[i] +'.js';
+        s.defer = true;
+        (d.head || d.body).appendChild(s);
+      }
     })(remark_config.components || ['embed']);
-
-    window.addEventListener('onColorSchemeChange', (e) => {
-        window.REMARK42.changeTheme(e.detail);
-    })
+</script>
+<script>
+  window.addEventListener('onColorSchemeChange', (e) => {
+    window.REMARK42.changeTheme(document.body.dataset.scheme);
+  })
 </script>
 
     
@@ -698,12 +731,12 @@ rm -rf /lib/modules/*aml-g12*  <span class="c1">#删除旧版内核模块，可�
         
             2020 - 
         
-        2021 Senku&#39;s Blog
+        2021 SimonHux Blog
     </section>
     
     <section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.3.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.0.1">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>
 </footer>
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -767,28 +800,17 @@ rm -rf /lib/modules/*aml-g12*  <span class="c1">#删除旧版内核模块，可�
 
     </div>
 
-</div><script 
-                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
-                defer="true"
-                >
-            </script><script 
-                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
-                defer="true"
-                >
-            </script><link 
-                rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
-            ><link 
-                rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
-            >
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
             </main>
         </div>
-        <script 
-                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
-                defer="false"
-                >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

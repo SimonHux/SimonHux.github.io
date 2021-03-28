@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on SimonHux Blog</title>
-    <link>https://simonhux.github.io/tags/</link>
+    <link>https://simonhux.top/tags/</link>
     <description>Recent content in Tags on SimonHux Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.top/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>开发</title>
-      <link>https://simonhux.github.io/tags/%E5%BC%80%E5%8F%91/</link>
+      <link>https://simonhux.top/tags/%E5%BC%80%E5%8F%91/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.github.io/tags/%E5%BC%80%E5%8F%91/</guid>
+      <guid>https://simonhux.top/tags/%E5%BC%80%E5%8F%91/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>https://simonhux.github.io/tags/blog/</link>
+      <link>https://simonhux.top/tags/blog/</link>
       <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.github.io/tags/blog/</guid>
+      <guid>https://simonhux.top/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Phicomm</title>
-      <link>https://simonhux.github.io/tags/phicomm/</link>
+      <link>https://simonhux.top/tags/phicomm/</link>
       <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.github.io/tags/phicomm/</guid>
+      <guid>https://simonhux.top/tags/phicomm/</guid>
       <description></description>
     </item>
     

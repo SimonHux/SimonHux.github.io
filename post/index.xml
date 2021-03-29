@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on SimonHux Blog</title>
-    <link>https://simonhux.top/post/</link>
+    <link>https://simonhux.club/post/</link>
     <description>Recent content in Posts on SimonHux Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.top/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.club/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>从零开始搭建 Go 语言开发环境</title>
-      <link>https://simonhux.top/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
+      <link>https://simonhux.club/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.top/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
+      <guid>https://simonhux.club/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
       <description>开发环境 下载 下载地址 Go官网下载地址：https://golang.org/dl/
 Go官方镜像站（推荐）：https://golang.google.cn/dl/
 版本的选择 Windows 平台和 Mac 平台推荐下载可执行文件版，Linux 平台下载压缩文件版。
@@ -31,10 +31,10 @@ GOROOT 和 GOPATH GOROOT和GOPATH都是环境变量，其中GOROOT是我们安�
     
     <item>
       <title>曹政文章目录</title>
-      <link>https://simonhux.top/p/%E6%9B%B9%E6%94%BF%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95/</link>
+      <link>https://simonhux.club/p/%E6%9B%B9%E6%94%BF%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95/</link>
       <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.top/p/%E6%9B%B9%E6%94%BF%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95/</guid>
+      <guid>https://simonhux.club/p/%E6%9B%B9%E6%94%BF%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95/</guid>
       <description>谁是曹政？ 冯大辉说(知乎)：
  认识曹政之后，感觉互联网终于入门了 :) 数据、技术、业务，无一不精。我的偶像。
  曹政的知识星球 除了微信公众号，caoz还在另外两个渠道分享一些在公众号里面不方便说的话题：
@@ -45,10 +45,10 @@ GOROOT 和 GOPATH GOROOT和GOPATH都是环境变量，其中GOROOT是我们安�
     
     <item>
       <title>轻型 NAS &#43; OpenWrt 组合</title>
-      <link>https://simonhux.top/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/</link>
+      <link>https://simonhux.club/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/</link>
       <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.top/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/</guid>
+      <guid>https://simonhux.club/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/</guid>
       <description>前言  如果愿意用隐私来交换便捷性或者效率的话，很多情况下他们是愿意这么做的。
 ​	——百度·李彦宏
  NAS全称 Network Attached Storage ，字面意思是：网络附加存储，说白话就是一台属于自己私人去中心化服务器，可以存储音乐、电影、照片等数据，可以做网盘，能做远程下载，能做影音服务器等等等你想让NAS做任何你想解决的方案。相对于家用主机①更低的功耗②24小时待机，两个特点。成熟的NAS产品像群晖、威联通可能二三十瓦功耗，低功耗硬件DIY黑群晖30瓦到40瓦不等。如果你对瓦数没什么概念，电视机顶盒的功耗一般15瓦左右，笔记本大约60 瓦左右。低功耗主要还是在省电方面实在。
@@ -68,10 +68,10 @@ N1刷入 armbian 和安装 Docker 不再此赘述，详细请查看最“不正�
     
     <item>
       <title>OpenWrt 旁路由模式</title>
-      <link>https://simonhux.top/p/openwrt-%E6%97%81%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F/</link>
+      <link>https://simonhux.club/p/openwrt-%E6%97%81%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.top/p/openwrt-%E6%97%81%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F/</guid>
+      <guid>https://simonhux.club/p/openwrt-%E6%97%81%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F/</guid>
       <description>前言 在Docker安装OpenWrt文中只是粗略提到旁路由设置，并没有深入探讨OpenWrt旁路由是如何进行设置。此文以四种方案去探讨旁路由模式与分析，祝君玩的开心
 总体介绍 下文【旁路由】代指旁路由设备，如N1，PI
 新手入手建议: 方案1 &amp;gt; 方案2
@@ -85,10 +85,10 @@ N1刷入 armbian 和安装 Docker 不再此赘述，详细请查看最“不正�
     
     <item>
       <title>Docker 安装 OpenWrt</title>
-      <link>https://simonhux.top/p/docker-%E5%AE%89%E8%A3%85-openwrt/</link>
+      <link>https://simonhux.club/p/docker-%E5%AE%89%E8%A3%85-openwrt/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.top/p/docker-%E5%AE%89%E8%A3%85-openwrt/</guid>
+      <guid>https://simonhux.club/p/docker-%E5%AE%89%E8%A3%85-openwrt/</guid>
       <description>前言 斐讯N1装好了Armbian和Docker，接下来就要发挥Docker性能所在。在Docker里安装软路由系统 OpenWrt
 另外此篇文章也适合于主路由是TP-Link、磊科、水星等主流路由器用户
 大体流程 把大象放进冰箱需要几步？1.开冰箱、2.放大象、3.关冰箱
@@ -110,10 +110,10 @@ N1刷入 armbian 和安装 Docker 不再此赘述，详细请查看最“不正�
     
     <item>
       <title>最“不正经”的盒子 斐讯N1</title>
-      <link>https://simonhux.top/p/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1/</link>
+      <link>https://simonhux.club/p/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.top/p/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1/</guid>
+      <guid>https://simonhux.club/p/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1/</guid>
       <description>前言 斐讯N1面世时是以家庭NAS系统和矿机的产品出现的，结果由于NAS软件性能弱，挖矿又因为一些原因服务挂掉，导致一度沦为吃灰的垃圾。 而之后在大神webpad破解了bootloader之后，N1可以刷机了，这样就摆脱了之前没有服务的NAS系统，可玩性和自由性大大增加。
 monokind大神通过绕过N1的加密增加了对CoreELEC的支持，CoreELEC的轻便化多媒体方案，让N1摇身一变成为一台专门的蓝光视频播放器，不光可以有海报墙和自动字幕匹配，还可以安装youtube（油管）和netflix（奈飞）插件，直接播放这两个平台的视频。
 再之后荒野无灯大神的小钢炮系统、万能游戏机EmuELEC系统、全功能的Armbian Linux系统、flippy大神编译的openwrt接踵而来。
@@ -136,10 +136,10 @@ GPU为5核ARM Mali-450，支持4K@60fps H265/VP9 10bit硬件解码，支持HDR10
     
     <item>
       <title>Windows&#34;新宠儿&#34;：Windows Terminal</title>
-      <link>https://simonhux.top/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</link>
+      <link>https://simonhux.club/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.top/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</guid>
+      <guid>https://simonhux.club/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</guid>
       <description>前言 Windows Terminal 是微软在2019年Build大会上宣布推出的全新开源终端应用，它带来了许多强大的特性，比如多标签页、Unicode 和 UTF-8 字符支持、GPU 加速文本渲染引擎与自定义主题、样式和配置等。
 Windwos Terminal 采用 C++ 开发，基于现代 Windows 应用平台和 UI 框架，同时整合共享的现代化组件，这些共享组件可以在 Windows 任何终端上使用，比如有一个全新的基于 DirectWrite 的文本布局和渲染引擎、一个能够存储 UTF-16 和 UTF-8 的文本缓冲区以及一个 VT 解析器/发射器。
 此外，Windows Terminal 渲染器和输入栈被构建成了可重用的 Windows UI 控件，方便其他开发者将其整合到他们自己的应用中。

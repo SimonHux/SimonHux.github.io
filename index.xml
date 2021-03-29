@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>SimonHux Blog</title>
-        <link>https://simonhux.club/</link>
+        <link>https://www.simonhux.com/</link>
         <description>Recent content on SimonHux Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.club/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.simonhux.com/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>从零开始搭建 Go 语言开发环境</title>
-        <link>https://simonhux.club/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
+        <link>https://www.simonhux.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://simonhux.club/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
-        <description>&lt;img src="https://simonhux.club/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/bg.png" alt="Featured image of post 从零开始搭建 Go 语言开发环境" /&gt;&lt;h3 id=&#34;开发环境&#34;&gt;开发环境&lt;/h3&gt;
+        <guid>https://www.simonhux.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</guid>
+        <description>&lt;img src="https://www.simonhux.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/bg.png" alt="Featured image of post 从零开始搭建 Go 语言开发环境" /&gt;&lt;h3 id=&#34;开发环境&#34;&gt;开发环境&lt;/h3&gt;
 &lt;h4 id=&#34;下载&#34;&gt;下载&lt;/h4&gt;
 &lt;h5 id=&#34;下载地址&#34;&gt;下载地址&lt;/h5&gt;
 &lt;p&gt;Go官网下载地址：&lt;a class=&#34;link&#34; href=&#34;https://golang.org/dl/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -179,10 +179,10 @@ go build
         </item>
         <item>
         <title>曹政文章目录</title>
-        <link>https://simonhux.club/p/%E6%9B%B9%E6%94%BF%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95/</link>
+        <link>https://www.simonhux.com/p/%E6%9B%B9%E6%94%BF%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95/</link>
         <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://simonhux.club/p/%E6%9B%B9%E6%94%BF%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95/</guid>
+        <guid>https://www.simonhux.com/p/%E6%9B%B9%E6%94%BF%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95/</guid>
         <description>&lt;p&gt;谁是曹政？ 冯大辉说(&lt;a class=&#34;link&#34; href=&#34;https://www.zhihu.com/question/19596615&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;知乎&lt;/a&gt;)：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -1060,11 +1060,11 @@ go build
         </item>
         <item>
         <title>轻型 NAS &#43; OpenWrt 组合</title>
-        <link>https://simonhux.club/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/</link>
+        <link>https://www.simonhux.com/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/</link>
         <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://simonhux.club/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/</guid>
-        <description>&lt;img src="https://simonhux.club/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/bg.png" alt="Featured image of post 轻型 NAS &#43; OpenWrt 组合" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+        <guid>https://www.simonhux.com/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/</guid>
+        <description>&lt;img src="https://www.simonhux.com/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/bg.png" alt="Featured image of post 轻型 NAS &#43; OpenWrt 组合" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;如果愿意用隐私来交换便捷性或者效率的话，很多情况下他们是愿意这么做的。&lt;/p&gt;
 &lt;p&gt;​																											——百度·李彦宏&lt;/p&gt;
@@ -1092,8 +1092,8 @@ Docker：Portainer、File Browser、Aria2、Nginx&lt;br&gt;
 移动硬盘：斐讯 H1 外壳+ HTS725050A7E630 500G&lt;br&gt;
 N1刷入 armbian 和安装 Docker 不再此赘述，详细请查看&lt;a class=&#34;link&#34; href=&#34;[https://rainsimon.top/2020/04/05/%E6%9C%80-%E4%B8%8D%E6%AD%A3%E7%BB%8F-%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFN1/&#34; &gt;最“不正经”的盒子斐讯 N1&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;figure style=&#34;flex-grow: 210; flex-basis: 505px&#34;&gt;
-		&lt;a href=&#34;https://simonhux.club/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/n1.png&#34; data-size=&#34;1845x876&#34;&gt;&lt;img src=&#34;https://simonhux.club/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/n1.png&#34;
-				srcset=&#34;https://simonhux.club/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/n1_hu31f1c29c03de038982e80a34dde4a6d3_1085445_480x0_resize_box_2.png 480w, https://simonhux.club/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/n1_hu31f1c29c03de038982e80a34dde4a6d3_1085445_1024x0_resize_box_2.png 1024w&#34;
+		&lt;a href=&#34;https://www.simonhux.com/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/n1.png&#34; data-size=&#34;1845x876&#34;&gt;&lt;img src=&#34;https://www.simonhux.com/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/n1.png&#34;
+				srcset=&#34;https://www.simonhux.com/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/n1_hu31f1c29c03de038982e80a34dde4a6d3_1085445_480x0_resize_box_2.png 480w, https://www.simonhux.com/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/n1_hu31f1c29c03de038982e80a34dde4a6d3_1085445_1024x0_resize_box_2.png 1024w&#34;
 				width=&#34;1845&#34;
 				height=&#34;876&#34;
 				loading=&#34;lazy&#34;
@@ -1278,8 +1278,8 @@ amd64和 arm64 需要单独使用tag，n1是arm64架构&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;我家云相对于斐讯N1刷机，更加简单，更加直接。显示器、U盘甚至是网线都不需要，只需要一条公对公刷机线即可无脑刷机&lt;br&gt;
 &lt;figure style=&#34;flex-grow: 150; flex-basis: 360px&#34;&gt;
-		&lt;a href=&#34;https://simonhux.club/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/l1.png&#34; data-size=&#34;1026x684&#34;&gt;&lt;img src=&#34;https://simonhux.club/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/l1.png&#34;
-				srcset=&#34;https://simonhux.club/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/l1_hu3c95474e7134da6db1bb1d974a823fc4_535931_480x0_resize_box_2.png 480w, https://simonhux.club/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/l1_hu3c95474e7134da6db1bb1d974a823fc4_535931_1024x0_resize_box_2.png 1024w&#34;
+		&lt;a href=&#34;https://www.simonhux.com/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/l1.png&#34; data-size=&#34;1026x684&#34;&gt;&lt;img src=&#34;https://www.simonhux.com/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/l1.png&#34;
+				srcset=&#34;https://www.simonhux.com/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/l1_hu3c95474e7134da6db1bb1d974a823fc4_535931_480x0_resize_box_2.png 480w, https://www.simonhux.com/p/%E8%BD%BB%E5%9E%8B-nas-openwrt-%E7%BB%84%E5%90%88/l1_hu3c95474e7134da6db1bb1d974a823fc4_535931_1024x0_resize_box_2.png 1024w&#34;
 				width=&#34;1026&#34;
 				height=&#34;684&#34;
 				loading=&#34;lazy&#34;
@@ -1362,11 +1362,11 @@ amd64和 arm64 需要单独使用tag，n1是arm64架构&lt;/p&gt;
         </item>
         <item>
         <title>OpenWrt 旁路由模式</title>
-        <link>https://simonhux.club/p/openwrt-%E6%97%81%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F/</link>
+        <link>https://www.simonhux.com/p/openwrt-%E6%97%81%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F/</link>
         <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://simonhux.club/p/openwrt-%E6%97%81%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F/</guid>
-        <description>&lt;img src="https://simonhux.club/p/openwrt-%E6%97%81%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F/bg.png" alt="Featured image of post OpenWrt 旁路由模式" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+        <guid>https://www.simonhux.com/p/openwrt-%E6%97%81%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F/</guid>
+        <description>&lt;img src="https://www.simonhux.com/p/openwrt-%E6%97%81%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F/bg.png" alt="Featured image of post OpenWrt 旁路由模式" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;在Docker安装OpenWrt文中只是粗略提到旁路由设置，并没有深入探讨OpenWrt旁路由是如何进行设置。此文以四种方案去探讨旁路由模式与分析，祝君玩的开心&lt;/p&gt;
 &lt;h2 id=&#34;总体介绍&#34;&gt;总体介绍&lt;/h2&gt;
 &lt;p&gt;下文【旁路由】代指旁路由设备，如N1，PI&lt;/p&gt;
@@ -1540,11 +1540,11 @@ amd64和 arm64 需要单独使用tag，n1是arm64架构&lt;/p&gt;
         </item>
         <item>
         <title>Docker 安装 OpenWrt</title>
-        <link>https://simonhux.club/p/docker-%E5%AE%89%E8%A3%85-openwrt/</link>
+        <link>https://www.simonhux.com/p/docker-%E5%AE%89%E8%A3%85-openwrt/</link>
         <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://simonhux.club/p/docker-%E5%AE%89%E8%A3%85-openwrt/</guid>
-        <description>&lt;img src="https://simonhux.club/p/docker-%E5%AE%89%E8%A3%85-openwrt/bg.png" alt="Featured image of post Docker 安装 OpenWrt" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+        <guid>https://www.simonhux.com/p/docker-%E5%AE%89%E8%A3%85-openwrt/</guid>
+        <description>&lt;img src="https://www.simonhux.com/p/docker-%E5%AE%89%E8%A3%85-openwrt/bg.png" alt="Featured image of post Docker 安装 OpenWrt" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;斐讯N1装好了&lt;a class=&#34;link&#34; href=&#34;https://rainsimon.top/2020/04/05/%e6%96%90%e8%ae%af-N1-%e5%88%b7%e5%85%a5Armbian%e7%b3%bb%e7%bb%9f&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Armbian和Docker&lt;/a&gt;，接下来就要发挥Docker性能所在。在Docker里安装软路由系统 OpenWrt&lt;/p&gt;
 &lt;p&gt;另外此篇文章也适合于主路由是TP-Link、磊科、水星等主流路由器用户&lt;/p&gt;
@@ -1685,11 +1685,11 @@ amd64和 arm64 需要单独使用tag，n1是arm64架构&lt;/p&gt;
         </item>
         <item>
         <title>最“不正经”的盒子 斐讯N1</title>
-        <link>https://simonhux.club/p/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1/</link>
+        <link>https://www.simonhux.com/p/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1/</link>
         <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://simonhux.club/p/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1/</guid>
-        <description>&lt;img src="https://simonhux.club/p/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1/bg.png" alt="Featured image of post 最“不正经”的盒子 斐讯N1" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+        <guid>https://www.simonhux.com/p/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1/</guid>
+        <description>&lt;img src="https://www.simonhux.com/p/%E6%9C%80%E4%B8%8D%E6%AD%A3%E7%BB%8F%E7%9A%84%E7%9B%92%E5%AD%90-%E6%96%90%E8%AE%AFn1/bg.png" alt="Featured image of post 最“不正经”的盒子 斐讯N1" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;斐讯N1面世时是以家庭NAS系统和矿机的产品出现的，结果由于NAS软件性能弱，挖矿又因为一些原因服务挂掉，导致一度沦为吃灰的垃圾。
 而之后在大神webpad破解了bootloader之后，N1可以刷机了，这样就摆脱了之前没有服务的NAS系统，可玩性和自由性大大增加。&lt;/p&gt;
 &lt;p&gt;monokind大神通过绕过N1的加密增加了对CoreELEC的支持，CoreELEC的轻便化多媒体方案，让N1摇身一变成为一台专门的蓝光视频播放器，不光可以有海报墙和自动字幕匹配，还可以安装youtube（油管）和netflix（奈飞）插件，直接播放这两个平台的视频。&lt;/p&gt;
@@ -2012,11 +2012,11 @@ rm -rf /lib/modules/*aml-g12*  &lt;span class=&#34;c1&#34;&gt;#删除旧版内�
         </item>
         <item>
         <title>Windows&#34;新宠儿&#34;：Windows Terminal</title>
-        <link>https://simonhux.club/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</link>
+        <link>https://www.simonhux.com/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</link>
         <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://simonhux.club/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</guid>
-        <description>&lt;img src="https://simonhux.club/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/bg.png" alt="Featured image of post Windows&#34;新宠儿&#34;：Windows Terminal" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+        <guid>https://www.simonhux.com/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/</guid>
+        <description>&lt;img src="https://www.simonhux.com/p/windows%E6%96%B0%E5%AE%A0%E5%84%BFwindows-terminal/bg.png" alt="Featured image of post Windows&#34;新宠儿&#34;：Windows Terminal" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/microsoft/terminal&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Windows Terminal&lt;/a&gt; 是微软在2019年Build大会上宣布推出的全新开源终端应用，它带来了许多强大的特性，比如多标签页、Unicode 和 UTF-8 字符支持、GPU 加速文本渲染引擎与自定义主题、样式和配置等。&lt;/p&gt;
 &lt;p&gt;Windwos Terminal 采用 C++ 开发，基于现代 Windows 应用平台和 UI 框架，同时整合共享的现代化组件，这些共享组件可以在 Windows 任何终端上使用，比如有一个全新的基于 DirectWrite 的文本布局和渲染引擎、一个能够存储 UTF-16 和 UTF-8 的文本缓冲区以及一个 VT 解析器/发射器。&lt;/p&gt;

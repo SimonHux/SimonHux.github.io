@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on SimonHux Blog</title>
-    <link>https://simonhux.club/page/</link>
+    <link>https://www.simonhux.com/page/</link>
     <description>Recent content in Pages on SimonHux Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.club/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.simonhux.com/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://simonhux.club/about/</link>
+      <link>https://www.simonhux.com/about/</link>
       <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.club/about/</guid>
+      <guid>https://www.simonhux.com/about/</guid>
       <description>🧑🏻‍💻 About Me let me = undefined
 undefined 就有无限可能
 本科 CS 在读，后端开发，正在成为一名社畜。
@@ -27,19 +27,19 @@ undefined 就有无限可能
     
     <item>
       <title>Archives</title>
-      <link>https://simonhux.club/archives/</link>
+      <link>https://www.simonhux.com/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.club/archives/</guid>
+      <guid>https://www.simonhux.com/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://simonhux.club/search/</link>
+      <link>https://www.simonhux.com/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhux.club/search/</guid>
+      <guid>https://www.simonhux.com/search/</guid>
       <description></description>
     </item>
     

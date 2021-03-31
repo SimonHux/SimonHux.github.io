@@ -40,7 +40,7 @@
 &lt;h3 id=&#34;2遇到的问题&#34;&gt;2、遇到的问题&lt;/h3&gt;
 &lt;h4 id=&#34;21-什么是-open-graph-标签&#34;&gt;2.1 什么是 Open Graph 标签&lt;/h4&gt;
 &lt;p&gt;在主题的配置文件中有一行 &lt;a class=&#34;link&#34; href=&#34;https://ogp.me/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;code&gt;opengraph&lt;/code&gt;&lt;/a&gt;, 并不了解这是做什么的&lt;/p&gt;
+    &gt;opengraph&lt;/a&gt;, 并不了解这是做什么的&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Open Graph Protocol（开放图谱协议），简称 OG 协议或 OGP。它是 Facebook 在 2010 年 F8 开发者大会公布的一种网页元信息（Meta Information）标记协议，属于 Meta Tag （Meta 标签）的范畴，是一种为社交分享而生的 Meta 标签。&lt;/p&gt;
 &lt;/blockquote&gt;

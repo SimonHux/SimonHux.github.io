@@ -54,13 +54,13 @@
                     
                     
                         
-                        <img src="/img/avatar_hu0736f3d612087396f41fda883568e4fc_51028_300x0_resize_q75_box.jpeg" width="300"
+                        <img src="/img/avatar_hucbc1a68a76acad496aa76d0a2e4fa40d_39277_300x0_resize_q75_box.jpeg" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
 
                 
-                    <span class="emoji">🌴</span>
+                    <span class="emoji">💫</span>
                 
             </figure>
         
@@ -359,20 +359,45 @@
 <p>在FinalShell依次找到<code>etc/docker/daemon.json</code>文件</p>
 <p><img src="https://simonblog-photo.oss-cn-beijing.aliyuncs.com/img/N1/N1/json.png" alt=""  /></p>
 <p>右键文本编辑器编辑以下内容，保存</p>
-<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="p">{</span>
- <span class="s2">&#34;registry-mirrors&#34;</span><span class="o">:</span> <span class="p">[</span><span class="s2">&#34;http://hub-mirror.c.163.com&#34;</span><span class="p">,</span><span class="s2">&#34;https://docker.mirrors.ustc.edu.cn&#34;</span><span class="p">,</span><span class="s2">&#34;https://docker.mirrors.ustc.edu.cn&#34;</span><span class="p">]</span>
-<span class="p">}</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">其它中国区Docker</span> <span class="nx">镜像加速</span><span class="err">，</span><span class="nx">更换里面的网址即可</span>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">{
+ <span style="color:#f1fa8c">&#34;registry-mirrors&#34;</span><span style="color:#ff79c6">:</span> [<span style="color:#f1fa8c">&#34;http://hub-mirror.c.163.com&#34;</span>,<span style="color:#f1fa8c">&#34;https://docker.mirrors.ustc.edu.cn&#34;</span>,<span style="color:#f1fa8c">&#34;https://docker.mirrors.ustc.edu.cn&#34;</span>]
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">其它中国区Docker 镜像加速，更换里面的网址即可
   
-<span class="nx">Docker中国区官方镜像</span>
-<span class="nx">https</span><span class="o">:</span><span class="c1">//registry.docker-cn.com
-</span><span class="c1"></span>  
-<span class="nx">daocloud镜像站</span>
-<span class="nx">http</span><span class="o">:</span><span class="c1">//f1361db2.m.daocloud.io
-</span><span class="c1"></span>  
-<span class="nx">七牛云加速器</span>
-<span class="nx">https</span><span class="o">:</span><span class="c1">//reg-mirror.qiniu.com
-</span></code></pre></div></li>
+Docker中国区官方镜像
+https<span style="color:#ff79c6">:</span><span style="color:#6272a4">//registry.docker-cn.com
+</span><span style="color:#6272a4"></span>  
+daocloud镜像站
+http<span style="color:#ff79c6">:</span><span style="color:#6272a4">//f1361db2.m.daocloud.io
+</span><span style="color:#6272a4"></span>  
+七牛云加速器
+https<span style="color:#ff79c6">:</span><span style="color:#6272a4">//reg-mirror.qiniu.com
+</span></code></pre></td></tr></table>
+</div>
+</div></li>
 </ul>
 <p>执行命令：<code>systemctl daemon-reload</code>和<code>systemctl restart docker</code></p>
 <p>重启 Docker 以使配置生效：<code>service docker restart</code></p>
@@ -414,8 +439,15 @@
 <li>把U盘的uEnv.ini文件的dtb路径替换为<code>dtb_name=/dtb/meson-gxl-s905d-p230.dtb</code></li>
 </ul>
 <h3 id="安装至emmc">安装至EMMC</h3>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">nand-sata-install
-</code></pre></div><h3 id="替换镜像源">替换镜像源</h3>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">nand-sata-install
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="替换镜像源">替换镜像源</h3>
 <ul>
 <li>
 <p><code>armbian-config</code>—<code>Personal</code>—<code>Mirror</code></p>
@@ -424,59 +456,141 @@
 <p>或者<code>vim /etc/apt/sources.list</code></p>
 </li>
 <li>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic main restricted universe multiverse
-<span class="c1">#deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic main restricted universe multiverse</span>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic main restricted universe multiverse
+<span style="color:#6272a4">#deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic main restricted universe multiverse</span>
   
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-security main restricted universe multiverse
-<span class="c1">#deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-security main restricted universe multiverse</span>
+<span style="color:#6272a4">#deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-security main restricted universe multiverse</span>
   
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-updates main restricted universe multiverse
-<span class="c1">#deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-updates main restricted universe multiverse</span>
+<span style="color:#6272a4">#deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-updates main restricted universe multiverse</span>
   
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-backports main restricted universe multiverse
-<span class="c1">#deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-backports main restricted universe multiverse</span>
-</code></pre></div></li>
+<span style="color:#6272a4">#deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-backports main restricted universe multiverse</span>
+</code></pre></td></tr></table>
+</div>
+</div></li>
 <li>
 <p>更新和升级软件包</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">apt-get update
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">apt-get update
 apt-get upgrade
-</code></pre></div><p>在实际操作过程中，可能由于某个软件包的更新导致文件系统变为只读状态，此时<code>reboot</code>重启后重新更新就可</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>在实际操作过程中，可能由于某个软件包的更新导致文件系统变为只读状态，此时<code>reboot</code>重启后重新更新就可</p>
 </li>
 </ul>
 <h3 id="设置时区为北京时间">设置时区为北京时间</h3>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime <span class="o">&amp;&amp;</span> <span class="nb">echo</span> <span class="s2">&#34;Asia/Shanghai&#34;</span> &gt; /etc/timezone
-</code></pre></div><p>执行 date -R 查看时间是否正确</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime <span style="color:#ff79c6">&amp;&amp;</span> <span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">&#34;Asia/Shanghai&#34;</span> &gt; /etc/timezone
+</code></pre></td></tr></table>
+</div>
+</div><p>执行 date -R 查看时间是否正确</p>
 <h3 id="删除默认-dns">删除默认 DNS</h3>
 <p>我希望N1能使用上级路由器提供的DNS</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">rm /etc/resolvconf/resolv.conf.d/head <span class="o">&amp;&amp;</span> touch /etc/resolvconf/resolv.conf.d/head
-</code></pre></div><p>在重启系统后，执行 cat /etc/resolv.conf ，查看返回结果是否为你路由器的 DNS，如果是，则表示删除成功，如果不是，则再执行一次删除命令。</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">rm /etc/resolvconf/resolv.conf.d/head <span style="color:#ff79c6">&amp;&amp;</span> touch /etc/resolvconf/resolv.conf.d/head
+</code></pre></td></tr></table>
+</div>
+</div><p>在重启系统后，执行 cat /etc/resolv.conf ，查看返回结果是否为你路由器的 DNS，如果是，则表示删除成功，如果不是，则再执行一次删除命令。</p>
 <h3 id="开启-bbr">开启 BBR</h3>
 <p>linux-5.0.2 默认用 reno ，需要设置其启用 bbr 。执行以下命令：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">echo</span> <span class="s2">&#34;net.core.default_qdisc=fq&#34;</span> &gt;&gt; /etc/sysctl.conf
-<span class="nb">echo</span> <span class="s2">&#34;net.ipv4.tcp_congestion_control=bbr&#34;</span> &gt;&gt; /etc/sysctl.conf
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">&#34;net.core.default_qdisc=fq&#34;</span> &gt;&gt; /etc/sysctl.conf
+<span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">&#34;net.ipv4.tcp_congestion_control=bbr&#34;</span> &gt;&gt; /etc/sysctl.conf
 sysctl -p
-</code></pre></div><p>通过以下命令检查 BBR 是否启动：</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">sysctl net.ipv4.tcp_available_congestion_control
-<span class="c1"># 返回值应为 net.ipv4.tcp_available_congestion_control = reno cubic bbr</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>通过以下命令检查 BBR 是否启动：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sysctl net.ipv4.tcp_available_congestion_control
+<span style="color:#6272a4"># 返回值应为 net.ipv4.tcp_available_congestion_control = reno cubic bbr</span>
 
 sysctl net.ipv4.tcp_congestion_control
-<span class="c1"># 返回值应为 net.ipv4.tcp_congestion_control = bbr</span>
+<span style="color:#6272a4"># 返回值应为 net.ipv4.tcp_congestion_control = bbr</span>
 
 sysctl net.core.default_qdisc
-<span class="c1"># 返回值应为 net.core.default_qdisc = fq</span>
+<span style="color:#6272a4"># 返回值应为 net.core.default_qdisc = fq</span>
 
-lsmod <span class="p">|</span> grep bbr
-<span class="c1"># 返回值应包含 tcp_bbr 模块</span>
-</code></pre></div><h3 id="安装docker-1">安装Docker</h3>
+lsmod | grep bbr
+<span style="color:#6272a4"># 返回值应包含 tcp_bbr 模块</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="安装docker-1">安装Docker</h3>
 <p>使用Azure中国的源，无需额外的配置</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">curl -fsSL https://get.docker.com -o get-docker.sh
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh --mirror AzureChinaCloud
-</code></pre></div><h3 id="安装portainer">安装Portainer</h3>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="安装portainer">安装Portainer</h3>
 <p>使Portainer自启要在部署命令加一段<code>restart=always</code></p>
-<pre><code>docker volume create portainer_data
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">docker volume create portainer_data
 
 docker run -d -p 9000:9000 --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer:linux-arm64
-</code></pre><h2 id="04-07使用ddbr恢复官改系统">04-07使用ddbr恢复官改系统</h2>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="04-07使用ddbr恢复官改系统">04-07使用ddbr恢复官改系统</h2>
 <p>N1把Armbian系统4.18+的内核刷入eMMC后会改变分区，会改变MAC地址，无法再通过U盘重新覆盖安装回到其它版本，也无法再直接刷回盒子的系统</p>
 <p>这个问题的解决方法两种</p>
 <ul>
@@ -496,8 +610,15 @@ docker run -d -p 9000:9000 --restart=always -v /var/run/docker.sock:/var/run/doc
 </li>
 <li>
 <p>ssh进入后系统后执行指令</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">ddbr
-</code></pre></div></li>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ddbr
+</code></pre></td></tr></table>
+</div>
+</div></li>
 <li>
 <p>输入<code>b</code>（backup），在进度条开始后即可<code>Ctrl+C</code>取消。这样可以获取到ddbr备份的文件的名称（不同版本的Armbian备份出来的包名有不同）</p>
 </li>
@@ -509,8 +630,15 @@ docker run -d -p 9000:9000 --restart=always -v /var/run/docker.sock:/var/run/doc
 </li>
 <li>
 <p>成功后直接键入</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">poweroff
-</code></pre></div></li>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">poweroff
+</code></pre></td></tr></table>
+</div>
+</div></li>
 <li>
 <p>拔电拔U盘重启，然后一切就都回到解放前了</p>
 </li>
@@ -520,32 +648,63 @@ docker run -d -p 9000:9000 --restart=always -v /var/run/docker.sock:/var/run/doc
 <p>上传 img到原系统的某个目录</p>
 <p>例如 /opt, 然后ssh连入，确保/boot目录有足够空间（大约70MB)，用df -h 查看）</p>
 <p>如果/boot的空间不足，则需要删除一部分旧版内核的文件，例如config-* System.map-*</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> /opt
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#8be9fd;font-style:italic">cd</span> /opt
 losetup -f -P Armbian_5.98_Aml-g12_Debian_buster_default_5.3.6-amlogic-flippy-9+.img
 mkdir p1 p2
 mount /dev/loop0p1 p1
 mount /dev/loop0p2 p2
-<span class="nb">cd</span> p1
+<span style="color:#8be9fd;font-style:italic">cd</span> p1
 cp vmlinuz-5.3.6-amlogic-flippy-9+ /boot
 cp uInitrd-5.3.6-amlogic-flippy-9+ /boot
-cp initrd.img-5.3.6-amlogic-flippy-9+ /boot <span class="c1"># 可选</span>
-cp System.map-5.3.6-amlogic-flippy-9+ /boot  <span class="c1"># 可选</span>
-cp config-5.3.6-amlogic-flippy-9+ /boot <span class="c1"># 可选</span>
-<span class="nb">cd</span> ../p2/lib/modules
+cp initrd.img-5.3.6-amlogic-flippy-9+ /boot <span style="color:#6272a4"># 可选</span>
+cp System.map-5.3.6-amlogic-flippy-9+ /boot  <span style="color:#6272a4"># 可选</span>
+cp config-5.3.6-amlogic-flippy-9+ /boot <span style="color:#6272a4"># 可选</span>
+<span style="color:#8be9fd;font-style:italic">cd</span> ../p2/lib/modules
 cp -a 5.3.6-amlogic-flippy-9+ /lib/modules
-<span class="nb">cd</span> /boot
+<span style="color:#8be9fd;font-style:italic">cd</span> /boot
 cp vmlinuz-5.3.6-amlogic-flippy-9+ zImage
 cp uInitrd-5.3.6-amlogic-flippy-9+ uInitrd
 sync
-<span class="nb">cd</span> /opt/
+<span style="color:#8be9fd;font-style:italic">cd</span> /opt/
 umount p1 p2
 losetup -D
 reboot
 
-<span class="c1"># 重启成功之后：</span>
-rm -f /boot/*aml-g12*  <span class="c1"># 删除旧版内核相关文件,可选</span>
-rm -rf /lib/modules/*aml-g12*  <span class="c1">#删除旧版内核模块，可选</span>
-</code></pre></div><h2 id="04-18线刷恢复emmc法">04-18线刷恢复EMMC法</h2>
+<span style="color:#6272a4"># 重启成功之后：</span>
+rm -f /boot/*aml-g12*  <span style="color:#6272a4"># 删除旧版内核相关文件,可选</span>
+rm -rf /lib/modules/*aml-g12*  <span style="color:#6272a4">#删除旧版内核模块，可选</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="04-18线刷恢复emmc法">04-18线刷恢复EMMC法</h2>
 <h3 id="准备工作-1">准备工作</h3>
 <ul>
 <li>N1机子一台（系统崩溃了也没关系）</li>
@@ -598,7 +757,7 @@ rm -rf /lib/modules/*aml-g12*  <span class="c1">#删除旧版内核模块，可�
 
 
 
-        <span>本文最终解释权归作者 SimonHux 所有，转载请注明出处。</span>
+        <span>本文最终解释权归作者所有，如需转载请注明出处。</span>
     </section>
     <section class="article-views">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-eye" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">

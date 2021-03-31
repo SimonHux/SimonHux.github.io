@@ -6,7 +6,22 @@
     <description>Recent content in Blog on SimonHux Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.com/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.com/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>本博客的折腾史</title>
+      <link>https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/</guid>
+      <description>起因 原博客 rainsimon.top 建立于 2020年 3月，但 9月后再无更新了
+ 
+偶然间看别人的用 Hugo 构建博客,于是时隔一年才有了本站的产生。
+经过 开始折腾 1、搭建服务  根据官方文档快速上手：QuickStart 本博客采用的主题：Stack 主题的配置及使用指南：参考文档  2、遇到的问题 2.1 什么是 Open Graph 标签 在主题的配置文件中有一行 opengraph, 并不了解这是做什么的
+ Open Graph Protocol（开放图谱协议），简称 OG 协议或 OGP。它是 Facebook 在 2010 年 F8 开发者大会公布的一种网页元信息（Meta Information）标记协议，属于 Meta Tag （Meta 标签）的范畴，是一种为社交分享而生的 Meta 标签。
+ 根据以上内容可以断定，是为了优化SEO，并且是针对社交平台的优化。 带有OG标签的内容分享后的效果也比不带的好 会展示缩略图 。
+2.2 什么是 Front-Matter 1 2 3 4 5 6  --- title: tags date: 2019-08-13 09:39:50 type: tags layout: tag ---   Front-Matter 就是.</description>
+    </item>
+    
     <item>
       <title>曹政文章目录</title>
       <link>https://simonhux.com/p/%E6%9B%B9%E6%94%BF%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95/</link>

@@ -20,13 +20,11 @@ Go官方镜像站（推荐）：https://golang.google.cn/dl/
 将上一步选好的安装包下载到本地。
 双击下载好的文件，然后按照下图的步骤安装即可。
 Linux 下安装 我们在版本选择页面选择并下载好go1.15.1.linux-amd64.tar.gz文件：
-curl -O https://studygolang.com/dl/golang/go1.15.linux-amd64.tar.gz 将下载好的文件解压到/usr/local目录下：
-sudo tar -C /usr/local -xzf go1.15.linux-amd64.tar.gz # 解压 配置环境变量： Linux下有两个文件可以配置环境变量
+1  curl -O https://studygolang.com/dl/golang/go1.15.linux-amd64.tar.gz   将下载好的文件解压到/usr/local目录下：
+1  sudo tar -C /usr/local -xzf go1.15.linux-amd64.tar.gz # 解压   配置环境变量： Linux下有两个文件可以配置环境变量
 其中/etc/profile是对所有用户生效的；$HOME/.profile是对当前用户生效的，根据自己的情况自行选择一个文件打开，添加如下两行代码，保存退出。
-export GOROOT=/usr/local/go export PATH=$PATH:$GOROOT/bin 修改/etc/profile后要重启生效，修改$HOME/.profile后使用source命令加载$HOME/.profile文件即可生效。 检查：
-~ go version go version go1.15.1 linux/amd65 Mac 下安装 下载可执行文件版，直接点击下一步安装即可，默认会将go安装到/usr/local/go目录下。
-检查 上一步安装过程执行完毕后，可以打开 Cmd 或 Windows Terminal，输入go version命令，查看安装的 Go 版本。
-GOROOT 和 GOPATH GOROOT和GOPATH都是环境变量，其中GOROOT是我们安装 Go 开发包的路径，GOPATH 是 Go语言中提供项目的工作目录。而从 Go 1.</description>
+1 2  export GOROOT=/usr/local/go export PATH=$PATH:$GOROOT/bin   修改/etc/profile后要重启生效，修改$HOME/.profile后使用source命令加载$HOME/.profile文件即可生效。 检查：
+1 2  ~ go version go version go1.15.1 linux/amd65   Mac 下安装 下载可执行文件版，直接点击下一步安装即可，默认会将go安装到/usr/local/go目录下。</description>
     </item>
     
     <item>

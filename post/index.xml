@@ -6,7 +6,22 @@
     <description>Recent content in Posts on SimonHux Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>本博客的折腾史</title>
+      <link>https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/</guid>
+      <description>起因 原博客 rainsimon.top 建立于 2020年 3月，但 9月后再无更新了
+ 
+偶然间看别人的用 Hugo 构建博客,于是时隔一年才有了本站的产生。
+经过 开始折腾 1、搭建服务  根据官方文档快速上手：QuickStart 本博客采用的主题：Stack 主题的配置及使用指南：参考文档  2、遇到的问题 2.1 什么是 Open Graph 标签 在主题的配置文件中有一行 opengraph, 并不了解这是做什么的
+ Open Graph Protocol（开放图谱协议），简称 OG 协议或 OGP。它是 Facebook 在 2010 年 F8 开发者大会公布的一种网页元信息（Meta Information）标记协议，属于 Meta Tag （Meta 标签）的范畴，是一种为社交分享而生的 Meta 标签。
+ 根据以上内容可以断定，是为了优化SEO，并且是针对社交平台的优化。 带有OG标签的内容分享后的效果也比不带的好 会展示缩略图 。
+2.2 什么是 Front-Matter 1 2 3 4 5 6  --- title: tags date: 2019-08-13 09:39:50 type: tags layout: tag ---   Front-Matter 就是.</description>
+    </item>
+    
     <item>
       <title>从零开始搭建 Go 语言开发环境</title>
       <link>https://simonhux.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
@@ -20,13 +35,11 @@ Go官方镜像站（推荐）：https://golang.google.cn/dl/
 将上一步选好的安装包下载到本地。
 双击下载好的文件，然后按照下图的步骤安装即可。
 Linux 下安装 我们在版本选择页面选择并下载好go1.15.1.linux-amd64.tar.gz文件：
-curl -O https://studygolang.com/dl/golang/go1.15.linux-amd64.tar.gz 将下载好的文件解压到/usr/local目录下：
-sudo tar -C /usr/local -xzf go1.15.linux-amd64.tar.gz # 解压 配置环境变量： Linux下有两个文件可以配置环境变量
+1  curl -O https://studygolang.com/dl/golang/go1.15.linux-amd64.tar.gz   将下载好的文件解压到/usr/local目录下：
+1  sudo tar -C /usr/local -xzf go1.15.linux-amd64.tar.gz # 解压   配置环境变量： Linux下有两个文件可以配置环境变量
 其中/etc/profile是对所有用户生效的；$HOME/.profile是对当前用户生效的，根据自己的情况自行选择一个文件打开，添加如下两行代码，保存退出。
-export GOROOT=/usr/local/go export PATH=$PATH:$GOROOT/bin 修改/etc/profile后要重启生效，修改$HOME/.profile后使用source命令加载$HOME/.profile文件即可生效。 检查：
-~ go version go version go1.15.1 linux/amd65 Mac 下安装 下载可执行文件版，直接点击下一步安装即可，默认会将go安装到/usr/local/go目录下。
-检查 上一步安装过程执行完毕后，可以打开 Cmd 或 Windows Terminal，输入go version命令，查看安装的 Go 版本。
-GOROOT 和 GOPATH GOROOT和GOPATH都是环境变量，其中GOROOT是我们安装 Go 开发包的路径，GOPATH 是 Go语言中提供项目的工作目录。而从 Go 1.</description>
+1 2  export GOROOT=/usr/local/go export PATH=$PATH:$GOROOT/bin   修改/etc/profile后要重启生效，修改$HOME/.profile后使用source命令加载$HOME/.profile文件即可生效。 检查：
+1 2  ~ go version go version go1.15.1 linux/amd65   Mac 下安装 下载可执行文件版，直接点击下一步安装即可，默认会将go安装到/usr/local/go目录下。</description>
     </item>
     
     <item>

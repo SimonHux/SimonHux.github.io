@@ -54,13 +54,13 @@
                     
                     
                         
-                        <img src="/img/avatar_hu0736f3d612087396f41fda883568e4fc_51028_300x0_resize_q75_box.jpeg" width="300"
+                        <img src="/img/avatar_hucbc1a68a76acad496aa76d0a2e4fa40d_39277_300x0_resize_q75_box.jpeg" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
 
                 
-                    <span class="emoji">🌴</span>
+                    <span class="emoji">💫</span>
                 
             </figure>
         
@@ -293,15 +293,36 @@ N1刷入 armbian 和安装 Docker 不再此赘述，详细请查看<a class="lin
 	</figure></p>
 <h3 id="挂载移动硬盘">挂载移动硬盘</h3>
 <h4 id="获取磁盘的-uuid">获取磁盘的 UUID</h4>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">blkid
-</code></pre></div><p>通常 /dev/sda1 为移动硬盘，例如我的</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">blkid
+</code></pre></td></tr></table>
+</div>
+</div><p>通常 /dev/sda1 为移动硬盘，例如我的</p>
 <p><img src="https://simonblog-photo.oss-cn-beijing.aliyuncs.com/img/N1/filebrowser/blkid.png" alt=""  /></p>
 <h4 id="编辑-fstab">编辑 fstab</h4>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">vi /etc/fstab
-</code></pre></div><p>按i进行修改，把硬盘载到 /media 目录下，当然这个可以挂载根目录任意一个文件夹下</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">vi /etc/fstab
+</code></pre></td></tr></table>
+</div>
+</div><p>按i进行修改，把硬盘载到 /media 目录下，当然这个可以挂载根目录任意一个文件夹下</p>
 <p><img src="https://simonblog-photo.oss-cn-beijing.aliyuncs.com/img/N1/filebrowser/uid.png" alt=""  /></p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nv">UUID</span><span class="o">=</span>2530EFAFAE6D5583   /media  ntfs defaults,nofail <span class="m">0</span>   <span class="m">2</span>
-</code></pre></div><p>改好后依次按返回键 :wq 保存退出。注意别少了冒号</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#8be9fd;font-style:italic">UUID</span><span style="color:#ff79c6">=</span>2530EFAFAE6D5583   /media  ntfs defaults,nofail <span style="color:#bd93f9">0</span>   <span style="color:#bd93f9">2</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>改好后依次按返回键 :wq 保存退出。注意别少了冒号</p>
 <p><code>reboot</code>重启，验证移动硬盘是否挂载到 /media 下</p>
 <h3 id="file-browser-版本选择">File Browser 版本选择</h3>
 <p>原版作者停止项目开发，<a class="link" href="https://github.com/filebrowser/filebrowser"  target="_blank" rel="noopener"
@@ -314,8 +335,15 @@ N1刷入 armbian 和安装 Docker 不再此赘述，详细请查看<a class="lin
 <ul>
 <li>打开SSH工具，输入以下代码</li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">docker run -it --restart always -d --name filebrowser --net<span class="o">=</span>host -e <span class="nv">PUID</span><span class="o">=</span><span class="m">1000</span> -e <span class="nv">PGID</span><span class="o">=</span><span class="m">100</span> -e <span class="nv">WEB_PORT</span><span class="o">=</span><span class="m">8081</span> -v /var/lib/filebrowser:/config -v /media/docker/filebrowser:/myfiles --mount <span class="nv">type</span><span class="o">=</span>tmpfs,destination<span class="o">=</span>/tmp 80x86/filebrowser:2.9.1-arm64
-</code></pre></div><blockquote>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run -it --restart always -d --name filebrowser --net<span style="color:#ff79c6">=</span>host -e <span style="color:#8be9fd;font-style:italic">PUID</span><span style="color:#ff79c6">=</span><span style="color:#bd93f9">1000</span> -e <span style="color:#8be9fd;font-style:italic">PGID</span><span style="color:#ff79c6">=</span><span style="color:#bd93f9">100</span> -e <span style="color:#8be9fd;font-style:italic">WEB_PORT</span><span style="color:#ff79c6">=</span><span style="color:#bd93f9">8081</span> -v /var/lib/filebrowser:/config -v /media/docker/filebrowser:/myfiles --mount <span style="color:#8be9fd;font-style:italic">type</span><span style="color:#ff79c6">=</span>tmpfs,destination<span style="color:#ff79c6">=</span>/tmp 80x86/filebrowser:2.9.1-arm64
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
 <p>注意</p>
 <p>v /media/docker/filebrowser
 此处对应的是移动硬盘，改成你想要放置File Browser目录的外接硬盘地址</p>
@@ -361,17 +389,45 @@ amd64和 arm64 需要单独使用tag，n1是arm64架构</p>
 </ul>
 <h5 id="docker-命令行秘籍">docker 命令行秘籍</h5>
 <h6 id="禁用-2fa">禁用 2FA</h6>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">docker <span class="nb">exec</span> -ti filebrowser sh -c <span class="s1">&#39;s6-svc -d /etc/services.d/fb &amp;&amp; su -s /bin/sh -c &#34;filebrowser users update 用户名 --otp.disable&#34; app &amp;&amp; s6-svc -u /etc/services.d/fb&#39;</span>
-</code></pre></div><h6 id="修改密码">修改密码</h6>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">docker <span class="nb">exec</span> -ti filebrowser sh -c <span class="s1">&#39;s6-svc -d /etc/services.d/fb &amp;&amp; su -s /bin/sh -c &#34;filebrowser users update 用户名 --password 新密码&#34; app &amp;&amp; s6-svc -u /etc/services.d/fb&#39;</span>
-</code></pre></div><h6 id="查看被封印的-ip">查看被封印的 IP</h6>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">docker <span class="nb">exec</span> -ti filebrowser sh -c <span class="s1">&#39;s6-svc -d /etc/services.d/fb &amp;&amp; su -s /bin/sh -c &#34;filebrowser logs ls&#34; app &amp;&amp; s6-svc -u /etc/services.d/fb&#39;</span>
-</code></pre></div><blockquote>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker <span style="color:#8be9fd;font-style:italic">exec</span> -ti filebrowser sh -c <span style="color:#f1fa8c">&#39;s6-svc -d /etc/services.d/fb &amp;&amp; su -s /bin/sh -c &#34;filebrowser users update 用户名 --otp.disable&#34; app &amp;&amp; s6-svc -u /etc/services.d/fb&#39;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h6 id="修改密码">修改密码</h6>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker <span style="color:#8be9fd;font-style:italic">exec</span> -ti filebrowser sh -c <span style="color:#f1fa8c">&#39;s6-svc -d /etc/services.d/fb &amp;&amp; su -s /bin/sh -c &#34;filebrowser users update 用户名 --password 新密码&#34; app &amp;&amp; s6-svc -u /etc/services.d/fb&#39;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h6 id="查看被封印的-ip">查看被封印的 IP</h6>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">docker <span style="color:#8be9fd;font-style:italic">exec</span> -ti filebrowser sh -c <span style="color:#f1fa8c">&#39;s6-svc -d /etc/services.d/fb &amp;&amp; su -s /bin/sh -c &#34;filebrowser logs ls&#34; app &amp;&amp; s6-svc -u /etc/services.d/fb&#39;</span>
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
 <p>修改密码失败可以用此命令也可以在<code>设置</code>→Failed Logs查看</p>
 </blockquote>
 <h6 id="解除封印">解除封印</h6>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">docker <span class="nb">exec</span> -ti filebrowser sh -c <span class="s1">&#39;s6-svc -d /etc/services.d/fb &amp;&amp; su -s /bin/sh -c &#34;filebrowser logs rm 被封禁的IP&#34; app &amp;&amp; s6-svc -u /etc/services.d/fb&#39;</span>
-</code></pre></div><blockquote>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker <span style="color:#8be9fd;font-style:italic">exec</span> -ti filebrowser sh -c <span style="color:#f1fa8c">&#39;s6-svc -d /etc/services.d/fb &amp;&amp; su -s /bin/sh -c &#34;filebrowser logs rm 被封禁的IP&#34; app &amp;&amp; s6-svc -u /etc/services.d/fb&#39;</span>
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
 <p>解除IP后可进行对密码修改</p>
 </blockquote>
 <h3 id="主要功能展示">主要功能展示</h3>
@@ -391,15 +447,29 @@ amd64和 arm64 需要单独使用tag，n1是arm64架构</p>
 <p><img src="https://simonblog-photo.oss-cn-beijing.aliyuncs.com/img/N1/filebrowser/7.png" alt=""  /></p>
 <h3 id="安装-samba">安装 Samba</h3>
 <h4 id="拉取镜像">拉取镜像</h4>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">docker run -d --restart<span class="o">=</span>always -p 137:137/udp -p 138:138/udp -p 139:139 -p 445:445 -p 445:445/udp --hostname <span class="s1">&#39;Armbian&#39;</span> -v /media:/share/folder  elswork/samba -u <span class="s2">&#34;用户名:密码&#34;</span> -s <span class="s2">&#34;mycloud:/share/folder:rw:用户名&#34;</span>
-</code></pre></div><blockquote>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run -d --restart<span style="color:#ff79c6">=</span>always -p 137:137/udp -p 138:138/udp -p 139:139 -p 445:445 -p 445:445/udp --hostname <span style="color:#f1fa8c">&#39;Armbian&#39;</span> -v /media:/share/folder  elswork/samba -u <span style="color:#f1fa8c">&#34;用户名:密码&#34;</span> -s <span style="color:#f1fa8c">&#34;mycloud:/share/folder:rw:用户名&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
 <p>Armbian：可改成你想要的名称</p>
 <p>mycloud：为共享文件夹名称</p>
 <p>/media：共享的目录，改成你的移动硬盘目录</p>
 </blockquote>
 <h4 id="访问-samba">访问 Samba</h4>
-<pre><code>\\Armbian IP\mycloud
-</code></pre><h4 id="映射到电脑">映射到电脑</h4>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">\\Armbian IP\mycloud
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="映射到电脑">映射到电脑</h4>
 <p><code>此电脑</code>或<code>资源管理器</code><br>
 <img src="https://simonblog-photo.oss-cn-beijing.aliyuncs.com/img/N1/filebrowser/z.png" alt=""  /></p>
 <p>此时已经映射到电脑里</p>
@@ -412,16 +482,31 @@ amd64和 arm64 需要单独使用tag，n1是arm64架构</p>
 <img src="https://simonblog-photo.oss-cn-beijing.aliyuncs.com/img/N1/filebrowser/nplayer.png" alt=""  /></p>
 <h3 id="安装-aria2">安装 Aria2</h3>
 <h4 id="拉取镜像-1">拉取镜像</h4>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">docker run -d <span class="se">\
-</span><span class="se"></span>  --name aria2 <span class="se">\
-</span><span class="se"></span>  -e <span class="nv">GUI</span><span class="o">=</span>on <span class="se">\
-</span><span class="se"></span>  -e <span class="nv">RPC_PASSWORD</span><span class="o">=</span><span class="m">123456</span> <span class="se">\
-</span><span class="se"></span>  -p 6800:6800 <span class="se">\
-</span><span class="se"></span>  -p 8089:80 <span class="se">\
-</span><span class="se"></span>  -v /media/docker/aria2/downloads:/media/docker/aria2/downloads <span class="se">\
-</span><span class="se"></span>  -v /media/docker/aria2/config:/media/docker/aria2/config <span class="se">\
-</span><span class="se"></span>  lstcml/aria2
-</code></pre></div><blockquote>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run -d <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  --name aria2 <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  -e <span style="color:#8be9fd;font-style:italic">GUI</span><span style="color:#ff79c6">=</span>on <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  -e <span style="color:#8be9fd;font-style:italic">RPC_PASSWORD</span><span style="color:#ff79c6">=</span><span style="color:#bd93f9">123456</span> <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  -p 6800:6800 <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  -p 8089:80 <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  -v /media/docker/aria2/downloads:/media/docker/aria2/downloads <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  -v /media/docker/aria2/config:/media/docker/aria2/config <span style="color:#f1fa8c">\
+</span><span style="color:#f1fa8c"></span>  lstcml/aria2
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
 <p>-e RPC_PASSWORD=123456 \       #设置你的密码</p>
 <p>-p 6800:6800 \                 #如果需要从外网管理你的下载需要主路由做观看映射</p>
 <p>-p 8089:80 \               #需要主路由上做端口映射</p>
@@ -449,8 +534,15 @@ amd64和 arm64 需要单独使用tag，n1是arm64架构</p>
 <h3 id="安装-nginx">安装 Nginx</h3>
 <p>可用于建站，这里用作于引导页</p>
 <h4 id="拉取镜像-2">拉取镜像</h4>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">docker run --name nginx -p 8080:80 -v /media/docker/www:/usr/share/nginx/html:ro -d nginx
-</code></pre></div><blockquote>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run --name nginx -p 8080:80 -v /media/docker/www:/usr/share/nginx/html:ro -d nginx
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
 <p>-v /media/docker/www
 这里同样可以是任意目录</p>
 </blockquote>
@@ -526,18 +618,35 @@ amd64和 arm64 需要单独使用tag，n1是arm64架构</p>
 <p>合理调整openwrt MTU值：https://www.right.com.cn/forum/thread-147203-1-1.html</p>
 <h4 id="openwrt-在线升级方法">OpenWrt 在线升级方法</h4>
 <p>此方法可以完整无损保留之前配置，相对于 N1 备份、重做、重刷、恢复简单</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">1. 把update-beikeyun-openwrt.sh 和 线刷包img文件<span class="o">(</span>解压后的<span class="o">)</span>用winscp上传至我家云openwrt系统里的/mnt/mmcblk0p4目录
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">1. 把update-beikeyun-openwrt.sh 和 线刷包img文件<span style="color:#ff79c6">(</span>解压后的<span style="color:#ff79c6">)</span>用winscp上传至我家云openwrt系统里的/mnt/mmcblk0p4目录
 2. ssh连入openwrt
-3. <span class="nb">cd</span>  /mnt/mmcblk0p4
+3. <span style="color:#8be9fd;font-style:italic">cd</span>  /mnt/mmcblk0p4
 4. ls -l update-l1pro-openwrt.sh
-    如果文件权限不是 -rwxr-xr-x的话，运行 chmod <span class="m">755</span> update-l1pro-openwrt.sh
+    如果文件权限不是 -rwxr-xr-x的话，运行 chmod <span style="color:#bd93f9">755</span> update-l1pro-openwrt.sh
 5. 运行以下命令：
 ./update-l1pro-openwrt.sh【空格】 【img文件名】，回车。
 例如：
 ./update-l1pro-openwrt.sh L1-Pro_Openwrt_R20.4.8_k5.4.35-flippy-35+o.img
 6. 脚本执行完毕，reboot命令重启，稍等一分多钟，over
 
-</code></pre></div><p>原理：第一次线刷时预留了2个分区： mmcblk0p3 、 mmcblk0p4 ，其中 p3 分区就是备用的 rootfs 分区，每运行一次升级脚本，就会把新的 rootfs 写到该预留分区，然后原 rootfs 分区被切换成备用分区，再升级一次又换回来，就是这样滚动进行的</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>原理：第一次线刷时预留了2个分区： mmcblk0p3 、 mmcblk0p4 ，其中 p3 分区就是备用的 rootfs 分区，每运行一次升级脚本，就会把新的 rootfs 写到该预留分区，然后原 rootfs 分区被切换成备用分区，再升级一次又换回来，就是这样滚动进行的</p>
 <h4 id="usb-转-rj45-接口">USB 转 RJ45 接口</h4>
 <p>此举可以让 N1 或者我家云多出一个 WAN 口<br>
 刷机之前如果插上 USB 网卡的话，刷好机后就可以使用 wan 了，推荐配合<code>8153网卡</code> 做主路由， lan-wan 转发速率接近 900m</p>
@@ -573,7 +682,7 @@ amd64和 arm64 需要单独使用tag，n1是arm64架构</p>
 
 
 
-        <span>本文最终解释权归作者 SimonHux 所有，转载请注明出处。</span>
+        <span>本文最终解释权归作者所有，如需转载请注明出处。</span>
     </section>
     <section class="article-views">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-eye" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">

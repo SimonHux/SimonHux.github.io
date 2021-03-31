@@ -146,13 +146,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h4 id=&#34;26-如何开启-rss&#34;&gt;2.6 如何开启 RSS&lt;/h4&gt;
 &lt;p&gt;博客默认自带 RSS 地址，如果你有使用 &lt;code&gt;RSSHub Radar&lt;/code&gt; 这个谷歌插件，那么当你进入博客就可以看到订阅地址。&lt;/p&gt;
-&lt;h4 id=&#34;27-如何开启评论系统&#34;&gt;2.7 如何开启评论系统&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;该博客主题自带 &lt;strong&gt;disqus&lt;/strong&gt; 和 &lt;strong&gt;remark42&lt;/strong&gt; 的支持,具体可以查看各自官方文档&lt;/li&gt;
-&lt;li&gt;具体可以参考&lt;a class=&#34;link&#34; href=&#34;https://www.lihaowen.com/free-time/how-to-bulid-remark42&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;这篇博客&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;28-如何编写博客文章&#34;&gt;2.8 如何编写博客文章&lt;/h4&gt;
+&lt;h4 id=&#34;27-如何编写博客文章&#34;&gt;2.7 如何编写博客文章&lt;/h4&gt;
 &lt;p&gt;你只需要按照 Markdown 的格式编写自己的文章，让后将写好的文章放在&lt;code&gt;博客根目录/content/posts&lt;/code&gt;， hugo 就会读取到这片文章，并将这片文章展示在比的博客中。&lt;/p&gt;
 &lt;p&gt;与普通Markdown 文章不一样的地方是，你需要在文章的开头写入如下结构的内容，这些内容包含在三杠线之间，在三杠线下边就是Markdown 的正文了：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;

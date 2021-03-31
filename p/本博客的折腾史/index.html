@@ -388,13 +388,7 @@
 </div>
 </div><h4 id="26-如何开启-rss">2.6 如何开启 RSS</h4>
 <p>博客默认自带 RSS 地址，如果你有使用 <code>RSSHub Radar</code> 这个谷歌插件，那么当你进入博客就可以看到订阅地址。</p>
-<h4 id="27-如何开启评论系统">2.7 如何开启评论系统</h4>
-<ol>
-<li>该博客主题自带 <strong>disqus</strong> 和 <strong>remark42</strong> 的支持,具体可以查看各自官方文档</li>
-<li>具体可以参考<a class="link" href="https://www.lihaowen.com/free-time/how-to-bulid-remark42"  target="_blank" rel="noopener"
-    >这篇博客</a></li>
-</ol>
-<h4 id="28-如何编写博客文章">2.8 如何编写博客文章</h4>
+<h4 id="27-如何编写博客文章">2.7 如何编写博客文章</h4>
 <p>你只需要按照 Markdown 的格式编写自己的文章，让后将写好的文章放在<code>博客根目录/content/posts</code>， hugo 就会读取到这片文章，并将这片文章展示在比的博客中。</p>
 <p>与普通Markdown 文章不一样的地方是，你需要在文章的开头写入如下结构的内容，这些内容包含在三杠线之间，在三杠线下边就是Markdown 的正文了：</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
@@ -583,61 +577,6 @@
 
     
         
-    <div id="remark42"></div>
-<script>
-    var remark_config = {
-      host: "https:\/\/remark42.senku.app\/", 
-      site_id: 'remark42',
-      components: ['embed'], 
-                             
-                             
-                             
-                             
-                             
-    
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-      max_shown_comments: 10, 
-      theme: document.body.dataset.scheme, 
-    
-      locale: 'zh', 
-      show_email_subscription: true 
-                                     
-                                     
-                                     
-    };
-  
-    (function(c) {
-      for(var i = 0; i < c.length; i++){
-        var d = document, s = d.createElement('script');
-        s.src = remark_config.host + '/web/' +c[i] +'.js';
-        s.defer = true;
-        (d.head || d.body).appendChild(s);
-      }
-    })(remark_config.components || ['embed']);
-</script>
-<script>
-  window.addEventListener('onColorSchemeChange', (e) => {
-    window.REMARK42.changeTheme(document.body.dataset.scheme);
-  })
-</script>
-
     
 
     <footer class="site-footer">

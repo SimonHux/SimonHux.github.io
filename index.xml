@@ -6,272 +6,7 @@
         <description>Recent content on SimonHux Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.com/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>本博客的折腾史</title>
-        <link>https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/</link>
-        <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/</guid>
-        <description>&lt;img src="https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/blog.jpg" alt="Featured image of post 本博客的折腾史" /&gt;&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
-&lt;p&gt;原博客 rainsimon.top 建立于 2020年 3月，但 9月后再无更新了&lt;/p&gt;
-&lt;p&gt;&lt;figure style=&#34;flex-grow: 140; flex-basis: 337px&#34;&gt;
-		&lt;a href=&#34;https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/blog_old.png&#34; data-size=&#34;2045x1456&#34;&gt;&lt;img src=&#34;https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/blog_old.png&#34;
-				srcset=&#34;https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/blog_old_hued70a3fedceaf8e55c5c8efdc573b07a_503081_480x0_resize_box_2.png 480w, https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/blog_old_hued70a3fedceaf8e55c5c8efdc573b07a_503081_1024x0_resize_box_2.png 1024w&#34;
-				width=&#34;2045&#34;
-				height=&#34;1456&#34;
-				loading=&#34;lazy&#34;
-				&gt;
-		&lt;/a&gt;
-		
-	&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;偶然间看别人的用 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo&lt;/a&gt; 构建博客,于是时隔一年才有了本站的产生。&lt;/p&gt;
-&lt;h2 id=&#34;经过&#34;&gt;经过&lt;/h2&gt;
-&lt;h3 id=&#34;开始折腾&#34;&gt;开始折腾&lt;/h3&gt;
-&lt;h4 id=&#34;1搭建服务&#34;&gt;1、搭建服务&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;根据官方文档快速上手：&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/quick-start/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;QuickStart&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;本博客采用的主题：&lt;a class=&#34;link&#34; href=&#34;https://github.com/hfge/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Stack&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;主题的配置及使用指南：&lt;a class=&#34;link&#34; href=&#34;https://docs.stack.jimmycai.com/v/zh-cn/configuration&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;参考文档&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;2遇到的问题&#34;&gt;2、遇到的问题&lt;/h3&gt;
-&lt;h4 id=&#34;21-什么是-open-graph-标签&#34;&gt;2.1 什么是 Open Graph 标签&lt;/h4&gt;
-&lt;p&gt;在主题的配置文件中有一行 &lt;a class=&#34;link&#34; href=&#34;https://ogp.me/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;code&gt;opengraph&lt;/code&gt;&lt;/a&gt;, 并不了解这是做什么的&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Open Graph Protocol（开放图谱协议），简称 OG 协议或 OGP。它是 Facebook 在 2010 年 F8 开发者大会公布的一种网页元信息（Meta Information）标记协议，属于 Meta Tag （Meta 标签）的范畴，是一种为社交分享而生的 Meta 标签。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;根据以上内容可以断定，是为了优化SEO，并且是针对社交平台的优化。
-带有OG标签的内容分享后的效果也比不带的好 &lt;strong&gt;会展示缩略图&lt;/strong&gt; 。&lt;/p&gt;
-&lt;h4 id=&#34;22-什么是-front-matter&#34;&gt;2.2 什么是 Front-Matter&lt;/h4&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---
-&lt;span style=&#34;color:#ff79c6&#34;&gt;title&lt;/span&gt;: tags
-&lt;span style=&#34;color:#ff79c6&#34;&gt;date&lt;/span&gt;: 2019-08-13 09:39:50
-&lt;span style=&#34;color:#ff79c6&#34;&gt;type&lt;/span&gt;: tags
-&lt;span style=&#34;color:#ff79c6&#34;&gt;layout&lt;/span&gt;: tag
----
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Front-Matter 就是.md文件最上面的这部分内容,具体介绍参考这部分内容：&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/weixin_42252518/article/details/99550466&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;front-matter 使用详解&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;23-如何查看访问量&#34;&gt;2.3 如何查看访问量&lt;/h4&gt;
-&lt;p&gt;本博客使用了&lt;a class=&#34;link&#34; href=&#34;http://busuanzi.ibruce.info/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;不蒜子网页计数器&lt;/a&gt;，可查看文档解锁更多打开方式。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;食用方式&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;在 &lt;code&gt;theme\{{your_theme}}\layouts\partials\article\components&lt;/code&gt; 文件夹下找到 &lt;code&gt;footer.html&lt;/code&gt; 文件&lt;/li&gt;
-&lt;li&gt;插入以下代码便可达到与本博客一致的样式
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;&lt;span style=&#34;color:#ff79c6&#34;&gt;section&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;article-views&amp;#34;&lt;/span&gt;&amp;gt;
-    {{ partial &amp;#34;helper/icon&amp;#34; &amp;#34;views&amp;#34; }}
-&amp;lt;&lt;span style=&#34;color:#ff79c6&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;busuanzi_value_page_pv&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#ff79c6&#34;&gt;span&lt;/span&gt;&amp;gt;&amp;lt;&lt;span style=&#34;color:#ff79c6&#34;&gt;span&lt;/span&gt;&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;views&amp;lt;/&lt;span style=&#34;color:#ff79c6&#34;&gt;span&lt;/span&gt;&amp;gt;
-&amp;lt;/&lt;span style=&#34;color:#ff79c6&#34;&gt;section&lt;/span&gt;&amp;gt;
-&amp;lt;&lt;span style=&#34;color:#ff79c6&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;async&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#ff79c6&#34;&gt;script&lt;/span&gt;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;备注：&lt;code&gt;article-views&lt;/code&gt; 类属性需要你在 &lt;code&gt;assets\img&lt;/code&gt; 文件下有一个名为 &lt;code&gt;views.svg&lt;/code&gt; 的图片文件&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;24-markdown-中写-html-标签不生效&#34;&gt;2.4 MarkDown 中写 HTML 标签不生效&lt;/h4&gt;
-&lt;p&gt;目前已知的问题：在本博客原生的 MarkDown 文件中编写HTML标签会被忽略&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;这在常见的 MarkDown 语法中并不符合正常逻辑，猜测是模版引擎转译时忽略了&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;搜了一圈发现 Hugo 官方手册有提及关于 MarkDown 渲染的配置，&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/configuration-markup#readout&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;具体文档&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;在 &lt;code&gt;config.yaml&lt;/code&gt; 中加入以下内容即可，你也可以根据文档配置其他内容&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;markup&lt;/span&gt;:
-    &lt;span style=&#34;color:#ff79c6&#34;&gt;goldmark&lt;/span&gt;:
-        &lt;span style=&#34;color:#ff79c6&#34;&gt;renderer&lt;/span&gt;:
-            &lt;span style=&#34;color:#ff79c6&#34;&gt;unsafe&lt;/span&gt;: &lt;span style=&#34;color:#ff79c6&#34;&gt;true&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h4 id=&#34;25-开启代码显示行号功能&#34;&gt;2.5 开启代码显示行号功能&lt;/h4&gt;
-&lt;p&gt;hugo的版本需要v0.60.0以上&lt;/p&gt;
-&lt;p&gt;实现的方式很简单，只要修改 &lt;code&gt;config.yaml&lt;/code&gt; 文件即可&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;markup&lt;/span&gt;:
-    &lt;span style=&#34;color:#ff79c6&#34;&gt;highlight&lt;/span&gt;:
-        &lt;span style=&#34;color:#ff79c6&#34;&gt;codeFences&lt;/span&gt;: &lt;span style=&#34;color:#ff79c6&#34;&gt;true&lt;/span&gt;
-        &lt;span style=&#34;color:#ff79c6&#34;&gt;guessSyntax&lt;/span&gt;: &lt;span style=&#34;color:#ff79c6&#34;&gt;true&lt;/span&gt;
-        &lt;span style=&#34;color:#ff79c6&#34;&gt;hl_Lines&lt;/span&gt;: &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
-        &lt;span style=&#34;color:#ff79c6&#34;&gt;lineNoStart&lt;/span&gt;: &lt;span style=&#34;color:#bd93f9&#34;&gt;1&lt;/span&gt;
-        &lt;span style=&#34;color:#ff79c6&#34;&gt;lineNos&lt;/span&gt;: &lt;span style=&#34;color:#ff79c6&#34;&gt;true&lt;/span&gt;
-        &lt;span style=&#34;color:#ff79c6&#34;&gt;lineNumbersInTable&lt;/span&gt;: &lt;span style=&#34;color:#ff79c6&#34;&gt;true&lt;/span&gt;
-        &lt;span style=&#34;color:#ff79c6&#34;&gt;noClasses&lt;/span&gt;: &lt;span style=&#34;color:#ff79c6&#34;&gt;true&lt;/span&gt;
-        &lt;span style=&#34;color:#ff79c6&#34;&gt;style&lt;/span&gt;: dracula
-        &lt;span style=&#34;color:#ff79c6&#34;&gt;tabWidth&lt;/span&gt;: &lt;span style=&#34;color:#bd93f9&#34;&gt;4&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h4 id=&#34;26-如何开启-rss&#34;&gt;2.6 如何开启 RSS&lt;/h4&gt;
-&lt;p&gt;博客默认自带 RSS 地址，如果你有使用 &lt;code&gt;RSSHub Radar&lt;/code&gt; 这个谷歌插件，那么当你进入博客就可以看到订阅地址。&lt;/p&gt;
-&lt;h4 id=&#34;27-如何开启评论系统&#34;&gt;2.7 如何开启评论系统&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;该博客主题自带 &lt;strong&gt;disqus&lt;/strong&gt; 和 &lt;strong&gt;remark42&lt;/strong&gt; 的支持,具体可以查看各自官方文档&lt;/li&gt;
-&lt;li&gt;具体可以参考&lt;a class=&#34;link&#34; href=&#34;https://www.lihaowen.com/free-time/how-to-bulid-remark42&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;这篇博客&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;28-如何编写博客文章&#34;&gt;2.8 如何编写博客文章&lt;/h4&gt;
-&lt;p&gt;你只需要按照 Markdown 的格式编写自己的文章，让后将写好的文章放在&lt;code&gt;博客根目录/content/posts&lt;/code&gt;， hugo 就会读取到这片文章，并将这片文章展示在比的博客中。&lt;/p&gt;
-&lt;p&gt;与普通Markdown 文章不一样的地方是，你需要在文章的开头写入如下结构的内容，这些内容包含在三杠线之间，在三杠线下边就是Markdown 的正文了：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---
-&lt;span style=&#34;color:#ff79c6&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;测试文章&amp;#34;&lt;/span&gt;
-&lt;span style=&#34;color:#ff79c6&#34;&gt;description&lt;/span&gt;: &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;文章简介&amp;#34;&lt;/span&gt;
-&lt;span style=&#34;color:#ff79c6&#34;&gt;date&lt;/span&gt;: &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;2020-08-10 01:00:00+0200&amp;#34;&lt;/span&gt;
-&lt;span style=&#34;color:#ff79c6&#34;&gt;slug&lt;/span&gt;: &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;test-post&amp;#34;&lt;/span&gt;
-&lt;span style=&#34;color:#ff79c6&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;cover.jpg&amp;#34;&lt;/span&gt;
-&lt;span style=&#34;color:#ff79c6&#34;&gt;categories&lt;/span&gt;:
-    - 博客
-&lt;span style=&#34;color:#ff79c6&#34;&gt;tags&lt;/span&gt;:
-    - Hugo
-    - Stack
----
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;其中 &lt;code&gt;content&lt;/code&gt;文件夹下有三个文件夹分别是 categories（存放分类）、page（存放其它页面）、post（存放文章）&lt;/p&gt;
-&lt;h3 id=&#34;打包部署&#34;&gt;打包部署&lt;/h3&gt;
-&lt;h4 id=&#34;打包&#34;&gt;打包&lt;/h4&gt;
-&lt;p&gt;输入命令 &lt;code&gt;hugo -D&lt;/code&gt; 即可构建写好的文章打包&lt;/p&gt;
-&lt;h4 id=&#34;搭建部署&#34;&gt;搭建部署&lt;/h4&gt;
-&lt;p&gt;因为每个人的部署方式各有不同，有的人直接丢服务器，有的人直接上 GitHub Pages&lt;/p&gt;
-&lt;h5 id=&#34;搭建&#34;&gt;搭建&lt;/h5&gt;
-&lt;ol&gt;
-&lt;li&gt;域名:如果你想 &lt;strong&gt;别人通过域名的 whois 无法查找你个人的任何信息&lt;/strong&gt;，可以购买来自于 &lt;a class=&#34;link&#34; href=&#34;http://www.namesilo.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;namesilo&lt;/a&gt; 域名&lt;/li&gt;
-&lt;li&gt;服务器: 我选择的是&lt;strong&gt;GitHub Pages&lt;/strong&gt;，这边看个人的喜好，国外的服务器和域名能够&lt;strong&gt;免备案&lt;/strong&gt;。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h5 id=&#34;部署&#34;&gt;部署&lt;/h5&gt;
-&lt;p&gt;这部分内容主要是命令清单，搭建在 Github 上，其中第五行和第十行替换成自己的 Github 地址即可&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;17
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;18
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;19
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;20
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;21
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;    hugo new site myblog
-
-    git clone https://github.com/hfge/hugo-theme-stack/ themes/hugo-theme-stack
-
-    hugo server -t hugo-agency-theme --buildDrafts
-
-    hugo new content/post/blog.md
-
-    hugo --theme&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;hugo-theme-stack --baseUrl&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://simonhux.github.io/&amp;#34;&lt;/span&gt; --buildDrafts
-
-    &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;cd&lt;/span&gt; public
-
-    git init
-
-    git add .
-
-    git commit -m &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;我的 hugo 博客第一次提交&amp;#34;&lt;/span&gt;
-
-    git remote add origin https://github.com/SimonHux/simonhux.github.io.git
-
-    git push -u origin master
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;如何更新&#34;&gt;如何更新&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;终端或 VS code 打开博客根目录&lt;/li&gt;
-&lt;li&gt;输入 &lt;code&gt;hugo server&lt;/code&gt; 检查将要更新的博客，看看是否有需要修改的地方&lt;/li&gt;
-&lt;li&gt;按住 &lt;code&gt;Ctrl+C&lt;/code&gt; 结束运行&lt;/li&gt;
-&lt;li&gt;输入 &lt;code&gt;hugo&lt;/code&gt; 初始化博客，生成的public文档将覆盖原有的public文档&lt;/li&gt;
-&lt;li&gt;输入 &lt;code&gt;cd public&lt;/code&gt; 进入public文档&lt;/li&gt;
-&lt;li&gt;相继输入以下代码&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
-&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;    git add -A
-    git commit -m &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;xxxx&amp;#34;&lt;/span&gt;
-    git push -f origin master
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;未完待续&#34;&gt;未完待续&amp;hellip;&lt;/h2&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.com/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>从零开始搭建 Go 语言开发环境</title>
         <link>https://simonhux.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
@@ -3093,6 +2828,271 @@ colorScheme      # 终端主题，对应schemes下各个name
 &lt;p&gt;&lt;img src=&#34;https://simonblog-photo.oss-cn-beijing.aliyuncs.com/img/Terminal/regedit.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;如果想删除右键菜单了怎么办？&lt;/p&gt;
 &lt;p&gt;打开注册表，找到 &lt;code&gt;HKEY_CLASSES_ROOT\Directory\Background\shell\wt&lt;/code&gt; 然后把 &lt;code&gt;wt&lt;/code&gt; 删除即可&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>本博客的折腾史</title>
+        <link>https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/</guid>
+        <description>&lt;img src="https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/blog.png" alt="Featured image of post 本博客的折腾史" /&gt;&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
+&lt;p&gt;原博客 rainsimon.top 建立于 2020年 3月，但 9月后再无更新了&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 140; flex-basis: 337px&#34;&gt;
+		&lt;a href=&#34;https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/blog_old.png&#34; data-size=&#34;2045x1456&#34;&gt;&lt;img src=&#34;https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/blog_old.png&#34;
+				srcset=&#34;https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/blog_old_hued70a3fedceaf8e55c5c8efdc573b07a_503081_480x0_resize_box_2.png 480w, https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/blog_old_hued70a3fedceaf8e55c5c8efdc573b07a_503081_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;2045&#34;
+				height=&#34;1456&#34;
+				loading=&#34;lazy&#34;
+				&gt;
+		&lt;/a&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;偶然间看别人的用 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo&lt;/a&gt; 构建博客,于是时隔一年才有了本站的产生。&lt;/p&gt;
+&lt;h2 id=&#34;经过&#34;&gt;经过&lt;/h2&gt;
+&lt;h3 id=&#34;开始折腾&#34;&gt;开始折腾&lt;/h3&gt;
+&lt;h4 id=&#34;1搭建服务&#34;&gt;1、搭建服务&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;根据官方文档快速上手：&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/quick-start/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;QuickStart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;本博客采用的主题：&lt;a class=&#34;link&#34; href=&#34;https://github.com/hfge/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;主题的配置及使用指南：&lt;a class=&#34;link&#34; href=&#34;https://docs.stack.jimmycai.com/v/zh-cn/configuration&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;参考文档&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;2遇到的问题&#34;&gt;2、遇到的问题&lt;/h3&gt;
+&lt;h4 id=&#34;21-什么是-open-graph-标签&#34;&gt;2.1 什么是 Open Graph 标签&lt;/h4&gt;
+&lt;p&gt;在主题的配置文件中有一行 &lt;a class=&#34;link&#34; href=&#34;https://ogp.me/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;code&gt;opengraph&lt;/code&gt;&lt;/a&gt;, 并不了解这是做什么的&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Open Graph Protocol（开放图谱协议），简称 OG 协议或 OGP。它是 Facebook 在 2010 年 F8 开发者大会公布的一种网页元信息（Meta Information）标记协议，属于 Meta Tag （Meta 标签）的范畴，是一种为社交分享而生的 Meta 标签。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;根据以上内容可以断定，是为了优化SEO，并且是针对社交平台的优化。
+带有OG标签的内容分享后的效果也比不带的好 &lt;strong&gt;会展示缩略图&lt;/strong&gt; 。&lt;/p&gt;
+&lt;h4 id=&#34;22-什么是-front-matter&#34;&gt;2.2 什么是 Front-Matter&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---
+&lt;span style=&#34;color:#ff79c6&#34;&gt;title&lt;/span&gt;: tags
+&lt;span style=&#34;color:#ff79c6&#34;&gt;date&lt;/span&gt;: 2019-08-13 09:39:50
+&lt;span style=&#34;color:#ff79c6&#34;&gt;type&lt;/span&gt;: tags
+&lt;span style=&#34;color:#ff79c6&#34;&gt;layout&lt;/span&gt;: tag
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Front-Matter 就是.md文件最上面的这部分内容,具体介绍参考这部分内容：&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/weixin_42252518/article/details/99550466&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;front-matter 使用详解&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;23-如何查看访问量&#34;&gt;2.3 如何查看访问量&lt;/h4&gt;
+&lt;p&gt;本博客使用了&lt;a class=&#34;link&#34; href=&#34;http://busuanzi.ibruce.info/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;不蒜子网页计数器&lt;/a&gt;，可查看文档解锁更多打开方式。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;食用方式&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在 &lt;code&gt;theme\{{your_theme}}\layouts\partials\article\components&lt;/code&gt; 文件夹下找到 &lt;code&gt;footer.html&lt;/code&gt; 文件&lt;/li&gt;
+&lt;li&gt;插入以下代码便可达到与本博客一致的样式
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;&lt;span style=&#34;color:#ff79c6&#34;&gt;section&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;article-views&amp;#34;&lt;/span&gt;&amp;gt;
+    {{ partial &amp;#34;helper/icon&amp;#34; &amp;#34;views&amp;#34; }}
+&amp;lt;&lt;span style=&#34;color:#ff79c6&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;busuanzi_value_page_pv&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#ff79c6&#34;&gt;span&lt;/span&gt;&amp;gt;&amp;lt;&lt;span style=&#34;color:#ff79c6&#34;&gt;span&lt;/span&gt;&amp;gt;&amp;amp;nbsp;&amp;amp;nbsp;views&amp;lt;/&lt;span style=&#34;color:#ff79c6&#34;&gt;span&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#ff79c6&#34;&gt;section&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#ff79c6&#34;&gt;script&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;async&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#ff79c6&#34;&gt;script&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;备注：&lt;code&gt;article-views&lt;/code&gt; 类属性需要你在 &lt;code&gt;assets\img&lt;/code&gt; 文件下有一个名为 &lt;code&gt;views.svg&lt;/code&gt; 的图片文件&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;24-markdown-中写-html-标签不生效&#34;&gt;2.4 MarkDown 中写 HTML 标签不生效&lt;/h4&gt;
+&lt;p&gt;目前已知的问题：在本博客原生的 MarkDown 文件中编写HTML标签会被忽略&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;这在常见的 MarkDown 语法中并不符合正常逻辑，猜测是模版引擎转译时忽略了&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;搜了一圈发现 Hugo 官方手册有提及关于 MarkDown 渲染的配置，&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/configuration-markup#readout&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;具体文档&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;config.yaml&lt;/code&gt; 中加入以下内容即可，你也可以根据文档配置其他内容&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;markup&lt;/span&gt;:
+    &lt;span style=&#34;color:#ff79c6&#34;&gt;goldmark&lt;/span&gt;:
+        &lt;span style=&#34;color:#ff79c6&#34;&gt;renderer&lt;/span&gt;:
+            &lt;span style=&#34;color:#ff79c6&#34;&gt;unsafe&lt;/span&gt;: &lt;span style=&#34;color:#ff79c6&#34;&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;25-开启代码显示行号功能&#34;&gt;2.5 开启代码显示行号功能&lt;/h4&gt;
+&lt;p&gt;hugo的版本需要v0.60.0以上&lt;/p&gt;
+&lt;p&gt;实现的方式很简单，只要修改 &lt;code&gt;config.yaml&lt;/code&gt; 文件即可&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;markup&lt;/span&gt;:
+    &lt;span style=&#34;color:#ff79c6&#34;&gt;highlight&lt;/span&gt;:
+        &lt;span style=&#34;color:#ff79c6&#34;&gt;codeFences&lt;/span&gt;: &lt;span style=&#34;color:#ff79c6&#34;&gt;true&lt;/span&gt;
+        &lt;span style=&#34;color:#ff79c6&#34;&gt;guessSyntax&lt;/span&gt;: &lt;span style=&#34;color:#ff79c6&#34;&gt;true&lt;/span&gt;
+        &lt;span style=&#34;color:#ff79c6&#34;&gt;hl_Lines&lt;/span&gt;: &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+        &lt;span style=&#34;color:#ff79c6&#34;&gt;lineNoStart&lt;/span&gt;: &lt;span style=&#34;color:#bd93f9&#34;&gt;1&lt;/span&gt;
+        &lt;span style=&#34;color:#ff79c6&#34;&gt;lineNos&lt;/span&gt;: &lt;span style=&#34;color:#ff79c6&#34;&gt;true&lt;/span&gt;
+        &lt;span style=&#34;color:#ff79c6&#34;&gt;lineNumbersInTable&lt;/span&gt;: &lt;span style=&#34;color:#ff79c6&#34;&gt;true&lt;/span&gt;
+        &lt;span style=&#34;color:#ff79c6&#34;&gt;noClasses&lt;/span&gt;: &lt;span style=&#34;color:#ff79c6&#34;&gt;true&lt;/span&gt;
+        &lt;span style=&#34;color:#ff79c6&#34;&gt;style&lt;/span&gt;: dracula
+        &lt;span style=&#34;color:#ff79c6&#34;&gt;tabWidth&lt;/span&gt;: &lt;span style=&#34;color:#bd93f9&#34;&gt;4&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;26-如何开启-rss&#34;&gt;2.6 如何开启 RSS&lt;/h4&gt;
+&lt;p&gt;博客默认自带 RSS 地址，如果你有使用 &lt;code&gt;RSSHub Radar&lt;/code&gt; 这个谷歌插件，那么当你进入博客就可以看到订阅地址。&lt;/p&gt;
+&lt;h4 id=&#34;27-如何开启评论系统&#34;&gt;2.7 如何开启评论系统&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;该博客主题自带 &lt;strong&gt;disqus&lt;/strong&gt; 和 &lt;strong&gt;remark42&lt;/strong&gt; 的支持,具体可以查看各自官方文档&lt;/li&gt;
+&lt;li&gt;具体可以参考&lt;a class=&#34;link&#34; href=&#34;https://www.lihaowen.com/free-time/how-to-bulid-remark42&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这篇博客&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;28-如何编写博客文章&#34;&gt;2.8 如何编写博客文章&lt;/h4&gt;
+&lt;p&gt;你只需要按照 Markdown 的格式编写自己的文章，让后将写好的文章放在&lt;code&gt;博客根目录/content/posts&lt;/code&gt;， hugo 就会读取到这片文章，并将这片文章展示在比的博客中。&lt;/p&gt;
+&lt;p&gt;与普通Markdown 文章不一样的地方是，你需要在文章的开头写入如下结构的内容，这些内容包含在三杠线之间，在三杠线下边就是Markdown 的正文了：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---
+&lt;span style=&#34;color:#ff79c6&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;测试文章&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#ff79c6&#34;&gt;description&lt;/span&gt;: &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;文章简介&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#ff79c6&#34;&gt;date&lt;/span&gt;: &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;2020-08-10 01:00:00+0200&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#ff79c6&#34;&gt;slug&lt;/span&gt;: &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;test-post&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#ff79c6&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;cover.jpg&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#ff79c6&#34;&gt;categories&lt;/span&gt;:
+    - 博客
+&lt;span style=&#34;color:#ff79c6&#34;&gt;tags&lt;/span&gt;:
+    - Hugo
+    - Stack
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;其中 &lt;code&gt;content&lt;/code&gt;文件夹下有三个文件夹分别是 categories（存放分类）、page（存放其它页面）、post（存放文章）&lt;/p&gt;
+&lt;h3 id=&#34;打包部署&#34;&gt;打包部署&lt;/h3&gt;
+&lt;h4 id=&#34;打包&#34;&gt;打包&lt;/h4&gt;
+&lt;p&gt;输入命令 &lt;code&gt;hugo -D&lt;/code&gt; 即可构建写好的文章打包&lt;/p&gt;
+&lt;h4 id=&#34;搭建部署&#34;&gt;搭建部署&lt;/h4&gt;
+&lt;p&gt;因为每个人的部署方式各有不同，有的人直接丢服务器，有的人直接上 GitHub Pages&lt;/p&gt;
+&lt;h5 id=&#34;搭建&#34;&gt;搭建&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;域名:如果你想 &lt;strong&gt;别人通过域名的 whois 无法查找你个人的任何信息&lt;/strong&gt;，可以购买来自于 &lt;a class=&#34;link&#34; href=&#34;http://www.namesilo.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;namesilo&lt;/a&gt; 域名&lt;/li&gt;
+&lt;li&gt;服务器: 我选择的是&lt;strong&gt;GitHub Pages&lt;/strong&gt;，这边看个人的喜好，国外的服务器和域名能够&lt;strong&gt;免备案&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;部署&#34;&gt;部署&lt;/h5&gt;
+&lt;p&gt;这部分内容主要是命令清单，搭建在 Github 上，其中第五行和第十行替换成自己的 Github 地址即可&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;17
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;18
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;19
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;20
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;21
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;    hugo new site myblog
+
+    git clone https://github.com/hfge/hugo-theme-stack/ themes/hugo-theme-stack
+
+    hugo server -t hugo-agency-theme --buildDrafts
+
+    hugo new content/post/blog.md
+
+    hugo --theme&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;hugo-theme-stack --baseUrl&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;https://simonhux.github.io/&amp;#34;&lt;/span&gt; --buildDrafts
+
+    &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;cd&lt;/span&gt; public
+
+    git init
+
+    git add .
+
+    git commit -m &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;我的 hugo 博客第一次提交&amp;#34;&lt;/span&gt;
+
+    git remote add origin https://github.com/SimonHux/simonhux.github.io.git
+
+    git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;如何更新&#34;&gt;如何更新&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;终端或 VS code 打开博客根目录&lt;/li&gt;
+&lt;li&gt;输入 &lt;code&gt;hugo server&lt;/code&gt; 检查将要更新的博客，看看是否有需要修改的地方&lt;/li&gt;
+&lt;li&gt;按住 &lt;code&gt;Ctrl+C&lt;/code&gt; 结束运行&lt;/li&gt;
+&lt;li&gt;输入 &lt;code&gt;hugo&lt;/code&gt; 初始化博客，生成的public文档将覆盖原有的public文档&lt;/li&gt;
+&lt;li&gt;输入 &lt;code&gt;cd public&lt;/code&gt; 进入public文档&lt;/li&gt;
+&lt;li&gt;相继输入以下代码&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;    git add -A
+    git commit -m &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;xxxx&amp;#34;&lt;/span&gt;
+    git push -f origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;未完待续&#34;&gt;未完待续&amp;hellip;&lt;/h2&gt;
 </description>
         </item>
         

@@ -6,7 +6,22 @@
     <description>Recent content in Posts on SimonHux Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>本博客的折腾史</title>
+      <link>https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/</guid>
+      <description>起因 原博客 rainsimon.top 建立于 2020年 3月，但 9月后再无更新了
+ 
+偶然间看别人的用 Hugo 构建博客,于是时隔一年才有了本站的产生。
+经过 开始折腾 1、搭建服务  根据官方文档快速上手：QuickStart 本博客采用的主题：Stack 主题的配置及使用指南：参考文档  2、遇到的问题 2.1 什么是 Open Graph 标签 在主题的配置文件中有一行 opengraph, 并不了解这是做什么的
+ Open Graph Protocol（开放图谱协议），简称 OG 协议或 OGP。它是 Facebook 在 2010 年 F8 开发者大会公布的一种网页元信息（Meta Information）标记协议，属于 Meta Tag （Meta 标签）的范畴，是一种为社交分享而生的 Meta 标签。
+ 根据以上内容可以断定，是为了优化SEO，并且是针对社交平台的优化。 带有OG标签的内容分享后的效果也比不带的好 会展示缩略图 。
+2.2 什么是 Front-Matter 1 2 3 4 5 6  --- title: tags date: 2019-08-13 09:39:50 type: tags layout: tag ---   Front-Matter 就是.</description>
+    </item>
+    
     <item>
       <title>从零开始搭建 Go 语言开发环境</title>
       <link>https://simonhux.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</link>
@@ -153,21 +168,6 @@ Windows Terminal可以在同一窗口代开多个标签页
 用任意编辑器打开即可，如：Vs Code、Sublime Text、notepad++等等等甚至记事本都可以
 配置文件可以对Windows Terminal进行各种属性的调整
  全局属性：位于 JSON 最外侧，包含有设置亮暗主题、默认 Profile 等项目的配置。 环境入口 profiles：一个列表，其中包含有 Windows Terminal 下拉菜单中唤起的各种环境（比如打开 PowerShell 环境、WSL 环境或 SSH 至远程服务器的环境……）与各种环境里 Windows Terminal 的显示方案（比如字体、背景、色彩方案等）。 配色主题 schemes：一个配色方案列表，其中包含有 Windows Terminal 在上一项「环境入口」中可以调用的「色彩主题」。 快捷键绑定 keybindings：自定义快捷键。  具体的每一种属性相关的信息，在Github官方库的SettingsSchema.</description>
-    </item>
-    
-    <item>
-      <title>本博客的折腾史</title>
-      <link>https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/</guid>
-      <description>起因 原博客 rainsimon.top 建立于 2020年 3月，但 9月后再无更新了
- 
-偶然间看别人的用 Hugo 构建博客,于是时隔一年才有了本站的产生。
-经过 开始折腾 1、搭建服务  根据官方文档快速上手：QuickStart 本博客采用的主题：Stack 主题的配置及使用指南：参考文档  2、遇到的问题 2.1 什么是 Open Graph 标签 在主题的配置文件中有一行 opengraph, 并不了解这是做什么的
- Open Graph Protocol（开放图谱协议），简称 OG 协议或 OGP。它是 Facebook 在 2010 年 F8 开发者大会公布的一种网页元信息（Meta Information）标记协议，属于 Meta Tag （Meta 标签）的范畴，是一种为社交分享而生的 Meta 标签。
- 根据以上内容可以断定，是为了优化SEO，并且是针对社交平台的优化。 带有OG标签的内容分享后的效果也比不带的好 会展示缩略图 。
-2.2 什么是 Front-Matter 1 2 3 4 5 6  --- title: tags date: 2019-08-13 09:39:50 type: tags layout: tag ---   Front-Matter 就是.</description>
     </item>
     
   </channel>

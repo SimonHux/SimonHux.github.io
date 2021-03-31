@@ -2,25 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://simonhux.com/tags/blog/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simonhux.com/categories/blog/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simonhux.com/categories/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simonhux.com/post/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simonhux.com/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simonhux.com/tags/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://simonhux.com/about/</loc>
     <lastmod>2021-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://simonhux.com/page/</loc>
     <lastmod>2021-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://simonhux.com/</loc>
-    <lastmod>2021-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://simonhux.com/categories/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://simonhux.com/tags/golang/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://simonhux.com/post/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://simonhux.com/tags/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://simonhux.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA-go-%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
@@ -28,12 +37,6 @@
   </url><url>
     <loc>https://simonhux.com/categories/%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://simonhux.com/tags/blog/</loc>
-    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://simonhux.com/categories/blog/</loc>
-    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://simonhux.com/p/%E6%9B%B9%E6%94%BF%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95/</loc>
     <lastmod>2020-06-13T00:00:00+00:00</lastmod>
@@ -67,7 +70,5 @@
     <loc>https://simonhux.com/link/</loc>
   </url><url>
     <loc>https://simonhux.com/search/</loc>
-  </url><url>
-    <loc>https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/</loc>
   </url>
 </urlset>

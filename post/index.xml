@@ -6,7 +6,24 @@
     <description>Recent content in Posts on SimonHux Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhux.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>中文文案排版指北</title>
+      <link>https://simonhux.com/p/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%88%E6%8E%92%E7%89%88%E6%8C%87%E5%8C%97/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhux.com/p/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%88%E6%8E%92%E7%89%88%E6%8C%87%E5%8C%97/</guid>
+      <description>前言 目前中文排版是个很复杂的问题，当代中文排版相比古代中文排版复杂了很多，古时候只有繁体竖排而使用环境也只有书籍、公文。自近代以来中文开始引入阿拉伯数字、西文字符后来中文也制定了中文字符并采用横排，但是由于历史遗留问题中文出现了简体中文与繁体中文及横竖排共存的状态另外西文与西文字符也以中英文混排的形式存在于中文文章之中。如今中文的使用环境也从原来简单的书籍、公文发展到书籍、杂志、办公文档、公文、网站、应用等多种使用环境再加上近几年来自媒体的蓬勃发展，可排版水平却参差不齐中文排版的重要性不言而喻。相比于日文、西文的排版，现行的中文排版还没有一个统一的标准。
+陈奕钧 在 用印刷品的态度来做 Web 排版 的观点
+ 汉字，或者说各种语言、文字，自古而今或独立或相互影响地发展出了其独特的书写和排印方式。现时的万维网标准，甚或专业的排版软体，尚无法完好、正确地支援这些特性
+ 适用范围：网站、应用、和自媒体，不适用于书籍、杂志、办公文档、公文（这类使用场景考虑到文字在实体材料中的排版，这与与互联网上排版的有诸多不同）。
+目录  前言 目录 空格  中英文之间需要增加空格 中文与数字之间需要增加空格 数字与单位之间无需增加空格 全角标点与其他字符之间不加空格 -ms-text-autospace to the rescue?   标点符号  不重复使用标点符号   全角和半角  使用全角中文标点 数字使用半角字符 遇到完整的英文整句、特殊名词，其內容使用半角标点   名词  专有名词使用正确的大小写 不要使用不地道的缩写   争议  链接之间增加空格 简体中文使用直角引号   工具 谁在这样做？ 参考文献  空格 「有研究显示，打字的时候不喜欢在中文和英文之间加空格的人，感情路都走得很辛苦，有七成的比例会在 34 岁的时候跟自己不爱的人结婚，而其余三成的人最后只能把遗产留给自己的猫。毕竟爱情跟书写都需要适时地留白。
+与大家共勉之。」——vinta/paranoid-auto-spacing
+中英文之间需要增加空格 正确：
+ 在 LeanCloud 上，数据存储是围绕 AVObject 进行的。
+ 错误：</description>
+    </item>
+    
     <item>
       <title>本博客的折腾史</title>
       <link>https://simonhux.com/p/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%8A%98%E8%85%BE%E5%8F%B2/</link>
